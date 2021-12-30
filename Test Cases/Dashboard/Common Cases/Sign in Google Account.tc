@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign in Google Account</name>
+   <tag>Auth</tag>
+   <comment></comment>
+   <testCaseGuid>e282d711-636a-46d2-9812-2b3c9683e09a</testCaseGuid>
+</TestCaseEntity>
