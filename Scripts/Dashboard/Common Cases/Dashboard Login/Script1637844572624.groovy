@@ -21,13 +21,13 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://auth.jai-kisan.com/auth/realms/test/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Ftest-dashboard.jai-kisan.com%2F&state=72f75b32-3635-4c03-826a-151f7d085024&response_mode=fragment&response_type=code&scope=openid&nonce=8f0dd764-353d-4d87-8d73-3daabd9fb451')
+WebUI.navigateToUrl('https://test-anchors.jai-kisan.com/anchors/applications')
 
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Dashboard Login/Login_email'), 'nishith.in@jai-kisan.com')
 
-WebUI.setEncryptedText(findTestObject('Dashboard Login/Login_password'), 'HSbZGfHepnLggGGGOb19Sw==')
+WebUI.setEncryptedText(findTestObject('Dashboard Login/Login_password'), 'HSbZGfHepnKXpMYblUbvtA==')
 
 WebUI.click(findTestObject('Dashboard Login/button_login'))
 

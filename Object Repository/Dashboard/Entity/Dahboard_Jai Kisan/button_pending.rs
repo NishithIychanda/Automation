@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_pending</name>
+   <tag></tag>
+   <elementGuidId>6bdaca1b-a3ac-4ebd-87c9-b0d9c50d62e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/anchors-root[1]/anchors-anchors-container[1]/anchors-application-details[1]/div[1]/div[3]/anchors-common-details[1]/div[1]/div[1]/div[1]/button[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

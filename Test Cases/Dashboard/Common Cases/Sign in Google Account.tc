@@ -5,4 +5,18 @@
    <tag>Auth</tag>
    <comment></comment>
    <testCaseGuid>e282d711-636a-46d2-9812-2b3c9683e09a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>94a5f7e2-2442-4acd-97b9-b4f44e623334</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'we'</defaultValue>
+      <description></description>
+      <id>033b5c8f-da32-49c2-8f1d-dff8d4be7dde</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

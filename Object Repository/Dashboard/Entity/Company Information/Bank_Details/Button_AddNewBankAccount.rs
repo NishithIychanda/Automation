@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_AddNewBankAccount</name>
+   <tag></tag>
+   <elementGuidId>6fdb929d-0bfc-41b4-a333-e80495c10be1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/div/anchors-section-renderer/div/anchors-content-decider[5]/anchors-member-details/div/anchors-table/div/div[2]/div[2]/button[2]/span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

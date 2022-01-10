@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Dashboard Login/button_Sign In with Google'))
 
+//WebUI.setText(findTestObject('Sign in Google Account/Email'), Username)
+
 WebUI.setText(findTestObject('Sign in Google Account/Email'), 'nishith.in@jai-kisan.com')
 
 WebUI.click(findTestObject('Sign in Google Account/Email_Next'))
 
-WebUI.setEncryptedText(findTestObject('Sign in Google Account/Password'), 'HSbZGfHepnLggGGGOb19Sw==')
+WebUI.setText(findTestObject('Sign in Google Account/Password'), 'Life@123')
 
 WebUI.verifyElementClickable(findTestObject('Sign in Google Account/Password_Next'))
 

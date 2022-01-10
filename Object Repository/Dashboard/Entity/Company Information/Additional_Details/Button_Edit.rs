@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Edit</name>
+   <tag></tag>
+   <elementGuidId>0e5350f8-39bb-4e6e-a641-05fd935e9be9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/div/anchors-section-renderer/div/anchors-content-decider[2]/anchors-forms/anchors-form-builder/div/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
