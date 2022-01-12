@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Verification of Date Range</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f103c86-20f2-4b9e-b0f3-fad73a24b4be</testCaseGuid>
+   <variable>
+      <defaultValue>'Feb'</defaultValue>
+      <description></description>
+      <id>a183352b-6396-490c-9543-ab71058926c4</id>
+      <masked>false</masked>
+      <name>StartMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jan'</defaultValue>
+      <description></description>
+      <id>e1176252-b4b7-49af-9f11-7077bb7d83f5</id>
+      <masked>false</masked>
+      <name>EndMonth</name>
+   </variable>
+</TestCaseEntity>
