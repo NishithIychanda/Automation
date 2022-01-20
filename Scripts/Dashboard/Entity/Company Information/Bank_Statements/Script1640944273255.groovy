@@ -17,9 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/button_upload_Documents'))
+WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Business_Details'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Bank_Details'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/span_Upload Statement'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/bankname_search'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/bank_sbi'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/bankname_search'), 'Sanmathi Sahakari Bank')
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/div_Account Type'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/dropdown_Saving'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/span_DocumentType'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/dropdown_Scanned'))
+
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/upload_bankstatement'), 
+    'E:\\Dev\\Documents\\bankStmt.pdf')
 

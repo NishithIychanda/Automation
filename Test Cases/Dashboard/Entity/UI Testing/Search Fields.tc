@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5354c597-9e2d-428a-a412-ac4c1d2b7611</testCaseGuid>
+   <variable>
+      <defaultValue>'36AABCM9806E1ZI'</defaultValue>
+      <description></description>
+      <id>9263aad3-7977-489e-a5b9-4f6e8502f080</id>
+      <masked>false</masked>
+      <name>GST_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'MERIT TECHNOLOGIES INDIA LIMITED'</defaultValue>
+      <description></description>
+      <id>79057972-f542-4931-9008-4b4ebe708ba1</id>
+      <masked>false</masked>
+      <name>Legal_Entity_Name</name>
+   </variable>
+</TestCaseEntity>

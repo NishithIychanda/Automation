@@ -21,6 +21,6 @@
       <guid>7cca9d1f-c9f4-44b8-9036-1af4d5b571a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Entity/Entity Creation/Spoc_Creation</testCaseId>
+      <testCaseId>Test Cases/Dashboard/Common Cases/Login Failure test</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

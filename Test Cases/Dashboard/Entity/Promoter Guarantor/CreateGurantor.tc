@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Visiblity Case</name>
+   <name>CreateGurantor</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bd46f41e-0220-46ca-bbb8-520d611cffad</testCaseGuid>
+   <testCaseGuid>de40187e-8a24-4ed1-b9bd-c13a377e051d</testCaseGuid>
 </TestCaseEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_upload_Documents</name>
+   <name>upload_bankstatement</name>
    <tag></tag>
-   <elementGuidId>9761c7fc-0fdc-4032-8fda-301e74c721dc</elementGuidId>
+   <elementGuidId>3adc5c2b-9874-4a79-9491-42635f9e2f41</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;mat-dialog-14&quot;]/anchors-member/section/anchors-member-section[2]/anchors-bank-statement-analysis/div[2]/div/button/span[1]</value>
+         <value>//*[@id=&quot;Upload Bank Statement&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_upload_Documents</name>
+   <name>ISBankAccountPrimary_Yes</name>
    <tag></tag>
-   <elementGuidId>9761c7fc-0fdc-4032-8fda-301e74c721dc</elementGuidId>
+   <elementGuidId>77ffb0a9-7b4d-4b10-9bdd-4e02e6965a19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;mat-dialog-14&quot;]/anchors-member/section/anchors-member-section[2]/anchors-bank-statement-analysis/div[2]/div/button/span[1]</value>
+         <value>//body/div[2]/div[6]/div[1]/div[1]/div[1]/mat-option[1]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Dashboard/Entity/UI Testing/Filter Objects/div_28'))
 
 WebUI.click(findTestObject('Dashboard/Entity/UI Testing/Filter Objects/button_Save'))
 
+WebUI.delay(60)
+
 String Date = WebUI.getText(findTestObject('Dashboard/Entity/UI Testing/Filter Objects/Date_11 Jan 2022'))
 
 System.println(Date)
@@ -47,12 +49,19 @@ String[] parts = Date.split(' ')
 
 //COMPARING MONTH
 A = (parts[1]).equals(StartMonth).or(Result2 = (parts[1]).equals(EndMonth))
+
 B = WebUI.getText(findTestObject('Dashboard/Entity/UI Testing/Filter Objects/Text_No Records Found'))
+
 if (A == true) {
     System.println('FILTERED DATA SUCCESSFULLY')
-} else if (B == "No Records Found") {
+    }
+
+ else if (B == 'No Records Found') {
+	
     System.println('No Records Found')
+	
 } else {
-   System.println('FILTERED DATA NOT VALID')
+    System.println('FILTERED DATA NOT VALID')
 }
+
 
