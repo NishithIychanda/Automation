@@ -71,11 +71,11 @@ WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUp
 
 WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Board Resolution Document'), 'E:\\\\Dev\\\\Documents\\\\Board Resolution Document.pdf   ')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Board Resolution Document'), 'E:\\\\Dev\\\\Documents\\\\Board Resolution Document.pdf')
 
 WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Dealership Certificate'), 'E:\\\\Dev\\\\Documents\\\\Dealership Certificate.png ')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Dealership Certificate'), 'E:\\\\Dev\\\\Documents\\\\Channel Logo.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
 

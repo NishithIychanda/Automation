@@ -89,8 +89,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/div_Years In Current Address'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_years In Current Address'), 
-    '4')
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_years In Current Address'), '4')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button Update (Permanent Address)'))
 
@@ -101,8 +100,7 @@ WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objec
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_current Address village'), 'village')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_current Address landmark'), 
-    'landmark')
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_current Address landmark'), 'landmark')
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_current address 1'), 'street')
 
@@ -145,6 +143,8 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button Submit'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/mat-icon_close'))
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Documents'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/mat-icon_close(Guarantor main)'))
 

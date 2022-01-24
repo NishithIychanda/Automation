@@ -27,19 +27,11 @@ WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Registered
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Bank_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/CreateGurantor'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Dashboard/Entity/SPOCs/Spocs'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Network/Network Details List'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Network/Store Details List'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.waitForPageLoad(5, FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.scrollToElement(findTestObject('Dashboard/Entity/Dahboard_Jai Kisan/button_pending'), 2)
-
-//WebUI.click(findTestObject('Dashboard/Entity/Dahboard_Jai Kisan/button_pending'))
-
-//WebUI.verifyElementText(findTestObject('Dashboard/Entity/Dahboard_Jai Kisan/button_pending'), 'ACTIVE')
-
-//System.Out.println('Object text is Active')
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Documents'), [:], FailureHandling.STOP_ON_FAILURE)
 

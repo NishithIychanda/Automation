@@ -31,7 +31,7 @@ WebUI.scrollToElement(findTestObject('Dashboard/Entity/Network/Store Details Lis
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/span_Add New Store'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/input_storeName'), 'Kalyani jwellers')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/input_storeName'), 'PK jwellers')
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/span_StoreType'))
 
@@ -118,7 +118,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Me
 WebUI.waitForPageLoad(5)
 
 WebUI.verifyElementText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/div_Test Auto'), 
-    'nandi jwellers')
+    'PK jwellers')
 
 //Adding bank Account details
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/div_Test Auto'))

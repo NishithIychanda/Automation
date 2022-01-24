@@ -4,7 +4,7 @@
    <name>Sanity</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>nishith.in@jai-kisan.com;rajeshwari.bannetti@jai-kisan.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -18,9 +18,9 @@
       <testCaseId>Test Cases/Dashboard/Common Cases/Dashboard Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7cca9d1f-c9f4-44b8-9036-1af4d5b571a2</guid>
+      <guid>d6899b47-9591-413a-9bd1-d226b3401775</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Common Cases/Login Failure test</testCaseId>
+      <testCaseId>Test Cases/Dashboard/Entity/Documents/Documents</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
