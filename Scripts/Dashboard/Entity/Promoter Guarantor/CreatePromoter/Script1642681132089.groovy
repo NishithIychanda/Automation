@@ -158,6 +158,8 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Button_Submit(bank account)'))
 
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Bank Statements'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/mat-icon_close'))
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Documents'), [:], FailureHandling.STOP_ON_FAILURE)
