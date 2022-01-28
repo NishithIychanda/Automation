@@ -6,12 +6,12 @@
    <elementGuidId>b7279724-6de3-4074-924c-f707bb478813</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mat-form-field-infix.ng-tns-c90-29</value>
+         <key>XPATH</key>
+         <value>//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/anchors-member[1]/section[1]/anchors-member-section[1]/anchors-forms[1]/anchors-form-builder[1]/div[2]/form[1]/jkf-element-builder[4]/anchors-wrapper-element[1]/anchors-select-input[1]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/mat-select[1]/div[1]/div[1]/span[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-4']/anchors-member/section/anchors-member-section/anchors-forms/anchors-form-builder/div[2]/form/jkf-element-builder[4]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c90-29</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

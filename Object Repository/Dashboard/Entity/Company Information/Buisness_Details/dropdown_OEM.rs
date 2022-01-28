@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[2]/div[2]/div[1]/div[1]/div[1]/mat-option[5]/span[1]</value>
+         <value>//span[contains(text(),'Trader')]</value>
       </entry>
       <entry>
          <key>CSS</key>

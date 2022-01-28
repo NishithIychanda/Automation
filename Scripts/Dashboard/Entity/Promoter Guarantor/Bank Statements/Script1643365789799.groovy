@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/Button_Upload Statement'), 0)
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Business_Details'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/Button_Upload Statement'))
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Aditional_Details'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/input_Bank Name'), 'Sanmathi Sahakari Bank')
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Registered_Address'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/span_Account Type'))
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Bank_Details'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/dropdown_AccountType'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/span_Document Type'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/dropdown_Docuement Type'))
+
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Bank Statements/Upload file'), 'E:\\\\Dev\\\\Documents\\\\bankStmt.pdf')
 

@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Promotor_Creation'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Business_Details'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -29,8 +28,3 @@ WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Registered
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Bank_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/SPOCs/Spocs'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Network/Network Details List'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Network/Store Details List'), [:], FailureHandling.STOP_ON_FAILURE)

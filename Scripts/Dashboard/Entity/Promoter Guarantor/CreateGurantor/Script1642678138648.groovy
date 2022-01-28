@@ -38,17 +38,20 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_Marital Status'), 'spouse')
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/path'))
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Datepicker'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/div_Month'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/div_4'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/div_datepickerArrow'))
+//WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/div_datepickerArrow'))
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button Submit'), 2)
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Span_Gender'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_Female'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_PAN'), 'AABCM9806F')
-
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_Female'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_AadharNumber'), '789876545678')
 
@@ -83,7 +86,7 @@ WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objec
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_Address2'), 'Automation permanent Address')
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_Address type(current address)'))
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_AddressType(permanaent address)'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_AddressType'))
 
@@ -113,9 +116,11 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_Rented'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_Update'))
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button_Update(currrent Address)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_Add Bank Account'))
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Documents'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button_Add Bank Account'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_AccountNumber'), '1678909876')
 
@@ -126,25 +131,29 @@ WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objec
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_IFSC Number'), 'ICIC0006506')
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/AccountType'))
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_AccountType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_Current'))
-
-WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_AccountHolderNumber'), '9009000900')
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_Current'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/IsPrimaryBankAccount'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/ISBankAccountPrimary_Yes'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/BankAccountStatus'))
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_AccountHolderNumber'), '9009000900')
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_Active'))
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button Submit'), 2)
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Span_BankStatus'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_BankstatusActive'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button Submit'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/mat-icon_close'))
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Bank Statements'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Documents'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(6)
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/mat-icon_close'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/mat-icon_close(Guarantor main)'))
 

@@ -43,9 +43,9 @@ WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/is_primary'))
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/span_Yes'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/dropdown_status'))
+//WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/dropdown_status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/status_Yes'))
+//WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/status_Yes'))
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/button_Submit'))
 

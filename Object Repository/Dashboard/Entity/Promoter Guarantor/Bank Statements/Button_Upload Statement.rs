@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Current</name>
+   <name>Button_Upload Statement</name>
    <tag></tag>
-   <elementGuidId>3891a305-45ea-4ca2-9145-8a0251ebbbf3</elementGuidId>
+   <elementGuidId>f5997b0e-ccbd-4493-85a0-d9a2233527e5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-51']/span</value>
+         <value>//span[contains(text(),'Upload Statement')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <value>div.align-right > button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary > span.mat-button-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,76 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-option-text</value>
+      <value>mat-button-wrapper</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Current </value>
+      <value> Upload Statement </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-51&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <value>id(&quot;mat-dialog-8&quot;)/anchors-member[@class=&quot;ng-star-inserted&quot;]/section[1]/anchors-member-section[@class=&quot;ng-star-inserted&quot;]/anchors-bank-statement-analysis[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;documents&quot;]/div[@class=&quot;align-right&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-option[@id='mat-option-51']/span</value>
+      <value>//mat-dialog-container[@id='mat-dialog-8']/anchors-member/section/anchors-member-section[2]/anchors-bank-statement-analysis/div[2]/div/button/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Statement'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Statements'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Statements'])[1]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saving'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated At: 28-01-2022 3:36 PM'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated At: 04-01-2022 1:41 PM'])[1]/preceding::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Current']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Upload Statement']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-option/span</value>
+      <value>//anchors-bank-statement-analysis/div[2]/div/button/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated At: 03-01-2022 6:46 PM'])[1]/preceding::span[2]</value>
+      <value>//span[(text() = ' Upload Statement ' or . = ' Upload Statement ')]</value>
    </webElementXpaths>
 </WebElementEntity>

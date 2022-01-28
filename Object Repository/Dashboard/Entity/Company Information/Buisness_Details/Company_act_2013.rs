@@ -6,12 +6,12 @@
    <elementGuidId>5b85318d-3734-4b8f-931c-f4b2167d4b7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-37 > span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'2013')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-37']/span</value>
+         <key>CSS</key>
+         <value>#mat-option-37 > span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>7b6dde14-fa6d-4304-bccd-48f0b359f3e0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Active')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[2]/div[6]/div[1]/div[1]/div[1]/mat-option[1]/span[1]</value>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

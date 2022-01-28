@@ -30,24 +30,24 @@ WebUI.setEncryptedText(findTestObject('Dashboard Login/Login_password'), 'HSbZGf
 WebUI.click(findTestObject('Dashboard Login/button_login'))
 
 //Output = WebUI.verifyElementPresent(findTestObject('Dashboard Login/Page_Jai Kisan Applications/Jai Kisan Logo'), 2)
-
 String currentUrl = WebUI.getUrl()
+
 System.println(currentUrl)
 
-
-
 Date today = new Date()
-String todaysDate = today.format('MM_dd_yy');
-String nowTime = today.format('hh_mm_ss');
+
+String todaysDate = today.format('MM_dd_yy')
+
+String nowTime = today.format('hh_mm_ss')
 
 if (currentUrl == 'https://test-dashboard.jai-kisan.com/home') {
-    
     System.println('LOGIN SUCCESSFUL')
-	WebUI.takeScreenshot("E:\\Automation\\Screenshots\\OutputScreenshots\\screenshot_"+ todaysDate +"-" + nowTime +".PNG")
-	
+
+    WebUI.takeScreenshot(((('E:\\Automation\\Screenshots\\OutputScreenshots\\screenshot_' + todaysDate) + '-') + nowTime) + 
+        '.PNG')
 } else {
-	
-    WebUI.takeScreenshot("E:\\Automation\\Screenshots\\OutputScreenshots\\screenshot_"+ todaysDate +"-" + nowTime +".PNG")
+    WebUI.takeScreenshot(((('E:\\Automation\\Screenshots\\OutputScreenshots\\screenshot_' + todaysDate) + '-') + nowTime) + 
+        '.PNG')
 
     WebUI.verifyElementPresent(findTestObject('Dashboard Login/Text_Invalid username or password'), 2)
 
@@ -55,10 +55,4 @@ if (currentUrl == 'https://test-dashboard.jai-kisan.com/home') {
 
     System.println(Message)
 }
-
-
-
-
-
-
 

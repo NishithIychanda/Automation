@@ -6,12 +6,12 @@
    <elementGuidId>cbff0d27-801e-4fd9-8f15-051ef7ff3b05</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-option-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[contains(text(),'Yes')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

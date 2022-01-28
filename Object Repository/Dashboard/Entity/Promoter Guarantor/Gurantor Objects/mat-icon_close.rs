@@ -6,12 +6,12 @@
    <elementGuidId>3d14ccff-195b-4333-8bed-e6efdda58fdd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-dialog-8 > anchors-member.ng-star-inserted > section > mat-toolbar.mat-toolbar.mat-primary.mat-toolbar-single-row > button.mat-focus-indicator.mat-icon-button.mat-button-base > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+         <key>XPATH</key>
+         <value>//body/div[2]/div[4]/div[1]/mat-dialog-container[1]/anchors-member[1]/section[1]/mat-toolbar[1]/button[1]/span[1]/mat-icon[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-8']/anchors-member/section/mat-toolbar/button/span/mat-icon</value>
+         <key>CSS</key>
+         <value>#mat-dialog-8 > anchors-member.ng-star-inserted > section > mat-toolbar.mat-toolbar.mat-primary.mat-toolbar-single-row > button.mat-focus-indicator.mat-icon-button.mat-button-base > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

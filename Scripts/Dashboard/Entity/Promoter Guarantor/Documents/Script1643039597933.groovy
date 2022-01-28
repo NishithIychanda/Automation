@@ -27,6 +27,9 @@ WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Ob
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Button Save'))
 
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_CA Certified NetWorth'), 
+    2)
+
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_Aadhar Card Back'), 
     'E:\\\\Dev\\\\Documents\\\\Udyog Aadhaar.jpg')
 
