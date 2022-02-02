@@ -43,10 +43,10 @@ String nowTime = today.format('hh_mm_ss')
 if (currentUrl == 'https://test-dashboard.jai-kisan.com/home') {
     System.println('LOGIN SUCCESSFUL')
 
-    WebUI.takeScreenshot(((('E:\\Automation\\Screenshots\\OutputScreenshots\\screenshot_' + todaysDate) + '-') + nowTime) + 
+    WebUI.takeScreenshot(((('C:\\Users\\Nishith IN\\Downloads\\Katalon_Studio_Windows_64-8.2.5\\Katalon_Studio_Windows_64-8.2.5\\Automation\\Screenshots\\OutputScreenshots\\screenshot_' + todaysDate) + '-') + nowTime) + 
         '.PNG')
 } else {
-    WebUI.takeScreenshot(((('E:\\Automation\\Screenshots\\OutputScreenshots\\screenshot_' + todaysDate) + '-') + nowTime) + 
+    WebUI.takeScreenshot(((('C:\\Users\\Nishith IN\\Downloads\\Katalon_Studio_Windows_64-8.2.5\\Katalon_Studio_Windows_64-8.2.5\\Automation\\Screenshots\\OutputScreenshots\\screenshot_' + todaysDate) + '-') + nowTime) + 
         '.PNG')
 
     WebUI.verifyElementPresent(findTestObject('Dashboard Login/Text_Invalid username or password'), 2)
