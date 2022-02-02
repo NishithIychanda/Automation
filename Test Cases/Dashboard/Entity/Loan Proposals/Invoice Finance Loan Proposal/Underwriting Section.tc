@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filters</name>
-   <tag>Bookings</tag>
+   <name>Underwriting Section</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>98d4db4b-f6a8-4906-9cdb-3001610f9212</testCaseGuid>
+   <testCaseGuid>6f28bd22-c37f-4ed0-a79c-8e3e7120c9c6</testCaseGuid>
 </TestCaseEntity>

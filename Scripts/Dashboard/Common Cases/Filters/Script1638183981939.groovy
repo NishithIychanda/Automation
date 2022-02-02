@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
+WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
 KeywordLogger log = new KeywordLogger()
 
 WebUI.waitForElementClickable(findTestObject('Dashboard/LOS/Bookings/Filter'), 0)

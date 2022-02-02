@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filters</name>
-   <tag>Bookings</tag>
+   <name>Proposal Details</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>98d4db4b-f6a8-4906-9cdb-3001610f9212</testCaseGuid>
+   <testCaseGuid>18905eff-62fa-4f7f-88c7-a386cf4d3131</testCaseGuid>
 </TestCaseEntity>

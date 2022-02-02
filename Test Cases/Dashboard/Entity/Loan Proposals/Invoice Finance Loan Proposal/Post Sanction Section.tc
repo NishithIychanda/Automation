@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filters</name>
-   <tag>Bookings</tag>
+   <name>Post Sanction Section</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>98d4db4b-f6a8-4906-9cdb-3001610f9212</testCaseGuid>
+   <testCaseGuid>f51f7b79-724c-4ad5-be46-171e91827a52</testCaseGuid>
 </TestCaseEntity>
