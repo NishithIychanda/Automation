@@ -25,57 +25,57 @@ WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchor
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Channel Logo'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Audit Report'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Sample Audit Report.pdf   ')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_ITR Documents'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\ITR Documents.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Board Resolution Document'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Board Resolution Document.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/documents upload entity/FileUpload_Dealership Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg')
 
-WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Page_Anchors Client/span_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/documents upload entity/Button_Save'))
 

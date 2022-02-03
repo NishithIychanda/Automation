@@ -23,4 +23,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard/Common Cases/Login Failure test</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>194fff15-dfce-4c9a-b0f4-4fca57ec2931</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard/Entity/Documents/Documents</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f8d2316-42b8-4b51-b937-b4e92611c4d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Invoice Finance Loan Proposal (E2E)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
