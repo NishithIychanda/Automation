@@ -37,6 +37,10 @@ WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/i
 
 WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Processing Fees'), '2')
 
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/FLDG or Cash Collateral Offered'), '22')
+
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Global Margin'), 2)
+
 WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_LTV'), '2')
 
 //WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Proposed Commercial Offered'), '2')
@@ -49,6 +53,8 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dro
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Repayment Type'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Repayment Type'))
+
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Repayment Cycle days'), '10')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Agreement Type'))
 

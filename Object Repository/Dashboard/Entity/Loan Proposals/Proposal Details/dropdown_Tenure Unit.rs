@@ -6,12 +6,12 @@
    <elementGuidId>ec121f60-91aa-4965-9193-2d80e5081bb6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Months')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Days')]</value>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

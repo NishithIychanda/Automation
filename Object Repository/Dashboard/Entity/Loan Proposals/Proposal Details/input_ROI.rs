@@ -6,12 +6,12 @@
    <elementGuidId>6ce311df-95de-47f3-9fdd-ce6603941021</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#en-sec-product-details-roi</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='en-sec-product-details-roi']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#en-sec-product-details-roi</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
