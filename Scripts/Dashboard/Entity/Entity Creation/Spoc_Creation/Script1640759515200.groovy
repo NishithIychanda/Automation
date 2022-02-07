@@ -39,9 +39,9 @@ WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/dropdown_department'))
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/span_Central Operations (COPS)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/is_primary'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/span_Is primary'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/span_Yes'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/dropdown_Is primary spoc'))
 
 //WebUI.click(findTestObject('Dashboard/Entity/SPOC Details/dropdown_status'))
 

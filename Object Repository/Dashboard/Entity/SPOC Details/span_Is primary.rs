@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Ok button in the GST verification pop up</description>
-   <name>Button_Ok</name>
+   <description></description>
+   <name>span_Is primary</name>
    <tag></tag>
-   <elementGuidId>0aa9b326-35d7-4984-81fb-c810419ea19c</elementGuidId>
+   <elementGuidId>4257609c-cb06-4fe7-a353-ddfd2c1b62ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'OK')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-select-value-5&quot;]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

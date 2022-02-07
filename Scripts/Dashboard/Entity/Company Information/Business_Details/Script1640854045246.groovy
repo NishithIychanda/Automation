@@ -38,7 +38,12 @@ WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Deta
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Button_Ok'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_dateOfRegistartion'), '12-jan-202')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Date Picker'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_month'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_date'))
+
 
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_email'), 'test1@jai-kisan.com')
 
