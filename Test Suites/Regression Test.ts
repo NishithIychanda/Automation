@@ -24,15 +24,15 @@
       <testCaseId>Test Cases/Dashboard/Common Cases/Login Failure test</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>194fff15-dfce-4c9a-b0f4-4fca57ec2931</guid>
+      <guid>828f75bd-f7c5-4e77-8638-4b53eaac24c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard/Entity/Company Information/End_to_End(spoc to company info)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>014fb684-a977-4096-8b52-5c748ddab2c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard/Entity/Documents/Documents</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4f8d2316-42b8-4b51-b937-b4e92611c4d3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Invoice Finance Loan Proposal (E2E)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

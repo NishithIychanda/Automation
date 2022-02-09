@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_AddNewBankAccount</name>
+   <name>Input_Bank name</name>
    <tag></tag>
-   <elementGuidId>6fdb929d-0bfc-41b4-a333-e80495c10be1</elementGuidId>
+   <elementGuidId>82438604-1e86-4c58-82dd-135020bd3ab7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Add Bank Account')]</value>
+         <value>//span[contains(text(),'Sanmathi Sahakari Bank')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

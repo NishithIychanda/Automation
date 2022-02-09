@@ -17,20 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/span_Upload Statement'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Button_Upload Statement'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/bankname_search'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/bankname_search'), 'Sanmathi Sahakari Bank')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/div_Account Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Input_Bank name'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/dropdown_Saving'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Span_Account Type'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/span_DocumentType'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/dropdown_Saving'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Page_Anchors Client/dropdown_Scanned'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/span_DocumentType'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/dropdown_Scanned'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/upload_bankstatement'), 
-    'E:\\Dev\\Documents\\bankStmt.pdf')
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\bankStmt.pdf')
 
