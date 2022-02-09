@@ -16,36 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Serach merit technology/search field'))
 
-KeywordLogger log = new KeywordLogger()
+WebUI.sendKeys(findTestObject('Serach merit technology/search field'), 'MERIT TECHNOLOGIES INDIA LIMITED')
 
-WebUI.waitForElementClickable(findTestObject('null'), 0)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.waitForElementClickable(findTestObject('null'), 0)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.delay(1)
-
-WebUI.waitForElementClickable(findTestObject('null'), 0)
-
-WebUI.click(findTestObject('null'))
-
-//Filtername = " Care India finvest "
-//WebUI.click(findTestObject('null'))
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.waitForElementClickable(findTestObject('null'), 0)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
+WebUI.delay(5)
 

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/div/anchors-section-renderer/div/anchors-content-decider[4]/anchors-forms/anchors-form-builder/div/div/button/span[1]</value>
+         <value>//mat-tab-body/div[1]/div[1]/anchors-section-renderer[1]/div[1]/anchors-content-decider[2]/anchors-forms[1]/anchors-form-builder[1]/div[1]/div[1]/button[1]/span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Edit</name>
+   <name>Heading Additional Documents</name>
    <tag></tag>
-   <elementGuidId>0e5350f8-39bb-4e6e-a641-05fd935e9be9</elementGuidId>
+   <elementGuidId>9716daef-b537-41cc-9f35-653b53310845</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body/div[1]/div[1]/anchors-section-renderer[1]/div[1]/anchors-content-decider[4]/anchors-forms[1]/anchors-form-builder[1]/div[1]/div[1]/button[1]/span[1]</value>
+         <value>//div[contains(text(),'Additional Documents')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

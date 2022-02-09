@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "827B343E6BEC45E54A782988B952AEF8",
+  "keywordClasses": [
+    {
+      "name": "testDBKeyword.DBConnectionTest",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

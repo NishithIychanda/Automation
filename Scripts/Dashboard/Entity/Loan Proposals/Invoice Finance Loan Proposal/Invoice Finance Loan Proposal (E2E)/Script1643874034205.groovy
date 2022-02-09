@@ -24,10 +24,15 @@ WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance
     FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Post Sanction Section'), 
- //   [:], FailureHandling.STOP_ON_FAILURE)
-
+//   [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Proposal Agreement List'), 
     [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Post Sanction Section'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Authorise Document'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Additional Documents'), [:], 
     FailureHandling.STOP_ON_FAILURE)

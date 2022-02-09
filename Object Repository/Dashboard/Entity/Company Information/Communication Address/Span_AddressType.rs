@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Span_AddressType</name>
+   <tag></tag>
+   <elementGuidId>ad2fd128-bf39-4e8b-acc3-419524d4b51e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/anchors-root[1]/anchors-anchors-container[1]/anchors-application-details[1]/div[1]/div[3]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/anchors-section-renderer[1]/div[1]/anchors-content-decider[3]/anchors-forms[1]/anchors-form-builder[1]/div[2]/form[1]/jkf-element-builder[9]/anchors-wrapper-element[1]/anchors-select-input[1]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/mat-select[1]/div[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

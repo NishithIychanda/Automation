@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Search_merit tech'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/div_JAGADISH KELAGERI CIVIL WORKS CONTRACTOR'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Headder_Loan Proposals'))
@@ -84,8 +86,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dro
 
 WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Approved Loan Amount'), '2222')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Utilized Credit Limit'), '2')
-
+//WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Utilized Credit Limit'), '2')
 //WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_External User Management'))
 //WebUI.click(findTestObject('null'))
 //WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Purpose Of loan'))

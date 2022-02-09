@@ -16,36 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'), [:], FailureHandling.STOP_ON_FAILURE)
 
-KeywordLogger log = new KeywordLogger()
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Business_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('null'), 0)
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Registered_Address'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Communication Address'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('null'), 0)
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Aditional_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
-
-WebUI.delay(1)
-
-WebUI.waitForElementClickable(findTestObject('null'), 0)
-
-WebUI.click(findTestObject('null'))
-
-//Filtername = " Care India finvest "
-//WebUI.click(findTestObject('null'))
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.waitForElementClickable(findTestObject('null'), 0)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Bank_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
