@@ -34,7 +34,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Gst number'), '24APKPP6663B1ZU')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Gst number'), '27AACFF8712E1ZM')
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Button_Ok'))
 
