@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;KYC Doc&quot;]</value>
+         <value>//input[@id='KYC Doc']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

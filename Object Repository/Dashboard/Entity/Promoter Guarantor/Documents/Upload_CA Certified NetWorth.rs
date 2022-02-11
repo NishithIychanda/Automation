@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;CA Certified NetWorth&quot;]</value>
+         <value>//input[@id='CA Certified NetWorth']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

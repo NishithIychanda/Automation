@@ -18,12 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_Profile Photo'), 
-    'E:\\\\Dev\\\\Documents\\\\Channel Logo.jpg ')
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Button Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_Aadhar Card Front'), 
-    'E:\\\\Dev\\\\Documents\\\\Udyog Aadhaar.jpg')
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Button Save'))
 
@@ -31,22 +31,22 @@ WebUI.scrollToElement(findTestObject('Dashboard/Entity/Promoter Guarantor/Promot
     2)
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_Aadhar Card Back'), 
-    'E:\\\\Dev\\\\Documents\\\\Udyog Aadhaar.jpg')
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Button Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_Address Proof'), 
-    'E:\\\\Dev\\\\Documents\\\\Udyog Aadhaar.jpg')
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Button Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_KYC'), 
-    'E:\\\\Dev\\\\Documents\\\\Udyog Aadhaar.jpg')
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Button Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Upload_CA Certified NetWorth'), 
-    'E:\\\\Dev\\\\Documents\\\\Udyog Aadhaar.jpg')
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Promoter Document/Button Save'))
 

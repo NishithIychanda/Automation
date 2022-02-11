@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Upload_Profile Photo</name>
+   <name>Button_Update(permanent address)</name>
    <tag></tag>
-   <elementGuidId>48620577-4b29-46fe-a559-7dd6081e2543</elementGuidId>
+   <elementGuidId>c68b995c-a5bf-4d78-ab1f-143352a171a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Profile Photo']</value>
+         <value>//span[contains(text(),'Update')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

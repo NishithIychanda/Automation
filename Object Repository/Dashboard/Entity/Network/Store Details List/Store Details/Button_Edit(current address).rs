@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_AccountType</name>
+   <name>Button_Edit(current address)</name>
    <tag></tag>
-   <elementGuidId>8701364d-9c2e-4384-91ac-964b82385096</elementGuidId>
+   <elementGuidId>60c7317b-b566-4394-944a-dc115fc71aeb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.mat-select-placeholder.ng-tns-c121-45.ng-star-inserted</value>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[2]/div[4]/div[1]/mat-dialog-container[1]/anchors-member[1]/section[1]/anchors-member-section[1]/anchors-forms[1]/anchors-form-builder[1]/div[1]/form[1]/jkf-element-builder[8]/anchors-wrapper-element[1]/anchors-select-input[1]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/mat-select[1]/div[1]/div[1]/span[1]</value>
+         <value>//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/anchors-member[1]/section[1]/anchors-member-section[2]/anchors-forms[1]/anchors-form-builder[1]/div[1]/div[1]/button[1]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,62 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-select-placeholder ng-tns-c121-45 ng-star-inserted</value>
+      <value>mat-button-wrapper</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> </value>
+      <value> Edit </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-select-value-13&quot;)/span[@class=&quot;mat-select-placeholder ng-tns-c121-45 ng-star-inserted&quot;]</value>
+      <value>id(&quot;mat-dialog-7&quot;)/anchors-member[@class=&quot;ng-star-inserted&quot;]/section[1]/anchors-member-section[@class=&quot;ng-star-inserted&quot;]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/div[@class=&quot;jkf__btn-wrapper ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mat-select-value-13']/span</value>
+      <value>//mat-dialog-container[@id='mat-dialog-7']/anchors-member/section/anchors-member-section[2]/anchors-forms/anchors-form-builder/div/div/button/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(required)'])[5]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Longitude'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Address'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Latitude'])[1]/following::span[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Type'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Store Member Details'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(required)'])[6]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Store Member'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/mat-select/div/div/span</value>
+      <value>//anchors-member-section[2]/anchors-forms/anchors-form-builder/div/div/button/span</value>
    </webElementXpaths>
 </WebElementEntity>

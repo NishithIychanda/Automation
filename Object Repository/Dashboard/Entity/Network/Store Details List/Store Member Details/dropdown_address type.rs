@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Upload_Profile Photo</name>
+   <name>dropdown_address type</name>
    <tag></tag>
-   <elementGuidId>48620577-4b29-46fe-a559-7dd6081e2543</elementGuidId>
+   <elementGuidId>1ef4028e-d2c9-4aed-9f73-0895c06b5d94</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Profile Photo']</value>
+         <value>//span[contains(text(),'Family Owned')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

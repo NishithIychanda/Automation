@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>98ecd4e6-9a56-4706-b544-b8c6aba28a19</testCaseGuid>
+   <variable>
+      <defaultValue>'Store AutomationD'</defaultValue>
+      <description></description>
+      <id>b467b383-0f09-4f08-a3cc-f1d9f33a52ca</id>
+      <masked>false</masked>
+      <name>StoreName</name>
+   </variable>
 </TestCaseEntity>

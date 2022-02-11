@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Upload_Profile Photo</name>
+   <name>input_street2(permanent address)</name>
    <tag></tag>
-   <elementGuidId>48620577-4b29-46fe-a559-7dd6081e2543</elementGuidId>
+   <elementGuidId>0064e778-8c92-4538-9c39-7615fb4b0d00</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Profile Photo']</value>
+         <value>//input[@id='en-sec-store-manager-permanent-address-streetAddress2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

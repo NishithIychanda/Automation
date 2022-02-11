@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Aadhar Card Front&quot;]</value>
+         <value>//input[@id='Aadhar Card Front']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Upload_Profile Photo</name>
+   <name>input_Village(Permanent Address)</name>
    <tag></tag>
-   <elementGuidId>48620577-4b29-46fe-a559-7dd6081e2543</elementGuidId>
+   <elementGuidId>7cbc95cc-5c43-4088-a95b-0c2e54a9ed3d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Profile Photo']</value>
+         <value>//input[@id='en-sec-store-manager-permanent-address-village']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
