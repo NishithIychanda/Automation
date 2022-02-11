@@ -18,9 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('https://test-anchors.jai-kisan.com/anchors/applications')
-
 //WebUI.maximizeWindow()
-
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/div_EN-220103-001495'))
@@ -43,5 +41,9 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/dropdo
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_Submit'))
 
+WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/Network/Network Details List/Success Toast message'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/icon_close'))
+
+WebUI.takeScreenshot()
 
