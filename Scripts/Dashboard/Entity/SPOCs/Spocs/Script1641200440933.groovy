@@ -1,3 +1,4 @@
+import org.openqa.selenium.By as By
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -47,5 +48,12 @@ WebUI.click(findTestObject('Dashboard/Entity/SPOCs/span_Active'))
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Button_Submit'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/icon_close'))
+WebUI.delay(3)
 
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Button Clone'))
+
+WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/SPOCs/Toast Message Clone'), FailureHandling.STOP_ON_FAILURE)
+
+//count = WebUI.getText(findTestObject('Dashboard/Entity/SPOCs/Row count'), FailureHandling.STOP_ON_FAILURE)
+//String[] parts = count.split(' ')
+//println(parts)
