@@ -71,9 +71,15 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_Active'))
 
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_Annual Income'), '25000')
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_Designation'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_Designation'))
+
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button Submit'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/button_Edit'))
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/button_Edit(permanent address)'))
 
 //**********************************Permanent Address deatils ****************************************************************
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_PinCode'), '560043')
@@ -89,8 +95,6 @@ WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objec
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/span_AddressType(permanaent address)'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/dropdown_AddressType'))
-
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/div_Years In Current Address'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/input_years In Current Address'), '4')
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_AddressType</name>
+   <name>button_Edit(permanent address)</name>
    <tag></tag>
-   <elementGuidId>542eeee7-3061-41f1-9d1a-61e438aee61f</elementGuidId>
+   <elementGuidId>af50646a-2ec4-4353-ba50-10378084b81a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Family Owned')]</value>
+         <value>//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/anchors-member[1]/section[1]/anchors-member-section[2]/anchors-forms[1]/anchors-form-builder[1]/div[1]/div[1]/button[1]/span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-option-text</value>
+      <value>mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Owned </value>
+      <value> Edit </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-33&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <value>id(&quot;mat-dialog-7&quot;)/anchors-member[@class=&quot;ng-star-inserted&quot;]/section[1]/anchors-member-section[@class=&quot;ng-star-inserted&quot;]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/div[@class=&quot;jkf__btn-wrapper ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-option[@id='mat-option-33']/span</value>
+      <value>//mat-dialog-container[@id='mat-dialog-7']/anchors-member/section/anchors-member-section[2]/anchors-forms/anchors-form-builder/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Items per page:'])[3]/following::span[11]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Longitude'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Records Found'])[1]/following::span[11]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Latitude'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rented'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parental'])[1]/preceding::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Owned']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Address'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-option/span</value>
+      <value>//anchors-member-section[2]/anchors-forms/anchors-form-builder/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

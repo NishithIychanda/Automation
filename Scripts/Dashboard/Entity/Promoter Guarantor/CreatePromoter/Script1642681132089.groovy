@@ -73,6 +73,16 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/dropdown_status'))
 
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/input_Annual Income'), 
+    '25000')
+
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/input_percentage share holding'), 
+    '25')
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/span_Designation'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/dropdown_Designation'))
+
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Button_Submit'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter Objects/Page_Anchors Client/Button_Edit(permanent Address)'))

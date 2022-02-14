@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Is Promoter</name>
+   <name>Button_Analyse</name>
    <tag></tag>
-   <elementGuidId>b9d3a5b8-fd4b-4fc2-8202-d2ed773e654a</elementGuidId>
+   <elementGuidId>b706e530-7e2a-496e-af3f-d952c8a247cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[2]/div[4]/div[1]/div[1]/div[1]/mat-option[2]/span[1]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Analyze')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

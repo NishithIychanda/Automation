@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-7']/anchors-member/section/anchors-member-section[2]/anchors-forms/anchors-form-builder/div/div/button/span</value>
+         <value>//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/anchors-member[1]/section[1]/anchors-member-section[2]/anchors-forms[1]/anchors-form-builder[1]/div[1]/div[1]/button[1]/span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

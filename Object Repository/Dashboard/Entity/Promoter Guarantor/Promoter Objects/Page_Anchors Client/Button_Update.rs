@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-7']/anchors-member/section/anchors-member-section[2]/anchors-forms/anchors-form-builder/div/div/button/span</value>
+         <value>//span[contains(text(),'Update')]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Is Promoter</name>
+   <name>input_percentage share holding</name>
    <tag></tag>
-   <elementGuidId>b9d3a5b8-fd4b-4fc2-8202-d2ed773e654a</elementGuidId>
+   <elementGuidId>f2833c6f-5a16-45ab-a567-4ab8a971cef3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[2]/div[4]/div[1]/div[1]/div[1]/mat-option[2]/span[1]</value>
+         <value>//input[@id='en-sec-key-personnel-info-percentageShareHolding']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
