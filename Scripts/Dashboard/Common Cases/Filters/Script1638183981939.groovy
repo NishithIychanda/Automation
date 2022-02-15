@@ -21,13 +21,9 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-KeywordLogger log = new KeywordLogger()
-
 WebUI.waitForElementClickable(findTestObject('null'), 0)
 
 WebUI.click(findTestObject('null'))
-
-WebUI.waitForElementClickable(findTestObject('null'), 0)
 
 WebUI.click(findTestObject('null'))
 
