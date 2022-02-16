@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Button_AddNewBankAccount'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_AccountNumber'), '0456101022909')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_AccountNumber'), '0456101022908')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_ConfirmAccountNumber'), '0456101022909')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_ConfirmAccountNumber'), '0456101022908')
 
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_IFSC code'), 'CNRB0000456')
 
