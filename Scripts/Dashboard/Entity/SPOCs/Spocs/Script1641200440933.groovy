@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Header_SPOCs'))
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOCs/button_Add New SPOC'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/input_FullName'), 'Neha')
+WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/input_FullName'), 'Automation Spoc')
 
 WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/input_Email'), 'test2@jai-kisan.com')
 
@@ -69,15 +69,27 @@ println(CountAfterClone[4])
 
 if ((CountAfterClone[4]) != CountbeforeClone) {
     println('Cloned Successfully 🎂')
-	
-	WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Delete _Icon'))
-	
-    WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/SPOCs/delete_toast message'))
-} 
-else {
 
+    //Serch Spoc Verification
+    WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/input_Search Spoc'), 'Automation Spoc')
+
+    WebUI.delay(5)
+
+    searchresult = WebUI.getText(findTestObject('Dashboard/Entity/SPOCs/Search_result'))
+
+    println(searchresult)
+
+    if (searchresult == 'Automation Spoc') {
+        println('Search successfull')
+
+        //Delete spoc Verification
+        WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Delete _Icon'))
+
+        WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/SPOCs/delete_toast message'))
+    } else {
+        println('No rescords Found or Seach faild due to some error')
+    }
+} else {
     println('Cloned Failed ')
-
-    
 }
 
