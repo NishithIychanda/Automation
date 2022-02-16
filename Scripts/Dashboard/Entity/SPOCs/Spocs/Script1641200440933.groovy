@@ -50,10 +50,34 @@ WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Button_Submit'))
 
 WebUI.delay(3)
 
+//CLONE VERIFICATION 
+String Paginationcount1 = WebUI.getText(findTestObject('Dashboard/Entity/SPOCs/pagination count'))
+
+String[] CountbeforeClone = Paginationcount1.split(' ')
+
+println(CountbeforeClone[4])
+
 WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Button Clone'))
 
 WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/SPOCs/Toast Message Clone'), FailureHandling.STOP_ON_FAILURE)
 
-//count = WebUI.getText(findTestObject('Dashboard/Entity/SPOCs/Row count'), FailureHandling.STOP_ON_FAILURE)
-//String[] parts = count.split(' ')
-//println(parts)
+Paginationcount2 = WebUI.getText(findTestObject('Dashboard/Entity/SPOCs/pagination count'))
+
+CountAfterClone = Paginationcount2.split(' ')
+
+println(CountAfterClone[4])
+
+if ((CountAfterClone[4]) != CountbeforeClone) {
+    println('Cloned Successfully 🎂')
+	
+	WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Delete _Icon'))
+	
+    WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/SPOCs/delete_toast message'))
+} 
+else {
+
+    println('Cloned Failed ')
+
+    
+}
+

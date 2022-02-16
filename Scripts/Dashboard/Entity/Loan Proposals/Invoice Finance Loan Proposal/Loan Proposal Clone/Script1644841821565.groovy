@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Clone/
 WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Clone/Clone success toast message'))
 
 
- Paginationcount2 = WebUI.getText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Clone/Pagecount'))
+Paginationcount2 = WebUI.getText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Clone/Pagecount'))
 
 
 CountAfterClone = Paginationcount2.split(' ')
