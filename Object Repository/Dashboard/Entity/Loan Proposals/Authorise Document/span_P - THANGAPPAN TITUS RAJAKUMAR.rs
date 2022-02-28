@@ -6,12 +6,12 @@
    <elementGuidId>682a88f1-a05e-47ae-888c-dc3a87103eb3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[2]/div[6]/div[1]/div[1]/div[1]/mat-option[2]/span[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-option-34 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[2]/div[6]/div[1]/div[1]/div[1]/mat-option[2]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

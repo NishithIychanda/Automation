@@ -6,12 +6,11 @@
    <elementGuidId>9716daef-b537-41cc-9f35-653b53310845</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'Additional Documents')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Additional Documents')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

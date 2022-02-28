@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_DocumentationSubmission_completed(EF)</name>
+   <tag></tag>
+   <elementGuidId>04025d64-de09-4bf7-9d8e-f6e378b7b47b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-dialog-1&quot;]/anchors-member/section/anchors-member-section[7]/anchors-forms/anchors-form-builder/div/form/jkf-element-builder[1]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div[1]/div[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

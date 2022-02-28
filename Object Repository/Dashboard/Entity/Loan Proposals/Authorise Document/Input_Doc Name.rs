@@ -6,12 +6,12 @@
    <elementGuidId>056d7cca-ac7b-4c1d-88ea-2d3a02a719fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[1]/div[2]/div[4]/div[1]/mat-dialog-container[1]/anchors-authoriseddocx[1]/div[1]/form[1]/div[1]/div[4]/mat-form-field[1]/div[1]/div[1]/div[3]/input[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-input-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/div[2]/div[4]/div[1]/mat-dialog-container[1]/anchors-authoriseddocx[1]/div[1]/form[1]/div[1]/div[4]/mat-form-field[1]/div[1]/div[1]/div[3]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

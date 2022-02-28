@@ -47,3 +47,16 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/icon_c
 
 WebUI.takeScreenshot()
 
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Network Details List/input_Search'), NetworkName)
+
+WebUI.delay(5)
+
+search_result = WebUI.getText(findTestObject('Dashboard/Entity/Network/Network Details List/search result') )
+        
+if (search_result == NetworkName) {
+	println("Search successfull")
+}
+else {
+	println ("search failed  or No records found")
+}
+

@@ -6,12 +6,11 @@
    <elementGuidId>f9500266-be1f-46fe-93fe-57eea451a091</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'Automation Invoice Finance')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Automation Invoice Finance')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

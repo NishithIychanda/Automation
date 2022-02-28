@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Business_D
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Aditional_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Registered_Address'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Bank_Details'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Company Information/Bank_Statements'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -6,12 +6,12 @@
    <elementGuidId>9e4533fc-f7e3-42f8-92bf-61bfe2810c92</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'P - GOPALAKRISHNAN RAMADURAI')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'P - GOPALAKRISHNAN RAMADURAI')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

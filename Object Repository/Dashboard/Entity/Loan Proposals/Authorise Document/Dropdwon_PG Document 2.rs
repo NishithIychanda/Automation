@@ -6,12 +6,12 @@
    <elementGuidId>0a7996cf-5ad6-4032-8b11-bb6cd486b85e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'PG Document 2')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-option-31 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'PG Document 2')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

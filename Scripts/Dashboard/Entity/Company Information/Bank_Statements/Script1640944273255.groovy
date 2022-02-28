@@ -43,6 +43,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Ba
 
 WebUI.delay(4)
 
+// to verify the toast verification to be added
 	
 	
 

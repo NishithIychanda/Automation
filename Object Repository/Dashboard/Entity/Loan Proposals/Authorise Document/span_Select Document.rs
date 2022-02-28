@@ -6,12 +6,12 @@
    <elementGuidId>9d748d3e-4066-45a0-b2f1-5a0cd41468f3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[2]/div[4]/div[1]/mat-dialog-container[1]/anchors-authoriseddocx[1]/div[1]/form[1]/div[1]/div[2]/mat-form-field[1]/div[1]/div[1]/div[3]/mat-select[1]/div[1]/div[1]/span[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mat-select-placeholder.ng-tns-c121-41.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[2]/div[4]/div[1]/mat-dialog-container[1]/anchors-authoriseddocx[1]/div[1]/form[1]/div[1]/div[2]/mat-form-field[1]/div[1]/div[1]/div[3]/mat-select[1]/div[1]/div[1]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>9f1dfcff-9065-48f8-80d3-2fe6773ccfb9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Clone')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Clone')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
