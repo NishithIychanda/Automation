@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CAM</name>
+   <name>Dropdown_stage status (completed)</name>
    <tag></tag>
-   <elementGuidId>802903e7-d760-4532-8c9a-6ad24880fd8d</elementGuidId>
+   <elementGuidId>d83970b1-46aa-486c-9cb1-4293963061a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='CAM']</value>
+         <value>//span[contains(text(),'Completed')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

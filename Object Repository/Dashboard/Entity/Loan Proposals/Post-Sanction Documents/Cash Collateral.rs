@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CAM</name>
+   <name>Cash Collateral</name>
    <tag></tag>
-   <elementGuidId>802903e7-d760-4532-8c9a-6ad24880fd8d</elementGuidId>
+   <elementGuidId>a8390fc2-47cf-4e23-8ba9-1a4ce72e5e7f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='CAM']</value>
+         <value>//input[@id='Cash Collateral']</value>
       </entry>
       <entry>
          <key>BASIC</key>

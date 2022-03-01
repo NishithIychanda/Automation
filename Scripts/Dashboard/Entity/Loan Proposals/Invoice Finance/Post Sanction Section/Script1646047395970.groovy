@@ -45,5 +45,5 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Post Sanction Sectio
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Post Sanction Section/mat-icon_remove_circle'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Underwriting Section/Button_Update'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Underwriting Section/Button_Update'))
 

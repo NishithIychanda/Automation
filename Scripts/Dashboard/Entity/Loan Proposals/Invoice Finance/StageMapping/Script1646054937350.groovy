@@ -19,17 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Search_merit tech'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Entity'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Header_Loan Proposals'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/td_Automation Invoice Finance'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/td_Automation Invoice Finance'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Button_Edit (stage mapping)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Completed(stage status)'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/span_Stage Status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/dropdown_DocumentationSubmission_Completed'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Dropdown_stage status (completed)'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/input_Stage Comment'), 'Document  Submission completed')
 
@@ -53,9 +55,9 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMa
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Button_Edit (stage mapping)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Pending(Stage Status)'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/span_Stage Status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/stage staus_completed'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Dropdown_stage status (completed)'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/input_Stage Comment'), 'Credit Approval Completed')
 
@@ -65,9 +67,9 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMa
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Span_Documents Submission (stage)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Dropdown_Post Sanction (stage)'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Dropdown_Post Sanction stage'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/div_Completed'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/span_Stage Status'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Dropdown_Pending (stage status)'))
 
@@ -77,7 +79,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMa
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Button_Edit (stage mapping)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Pending(Stage Status)'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/span_Stage Status'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Completed_PostSanction'))
 
@@ -87,11 +89,11 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMa
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Button_Edit (stage mapping)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/div_(required)Post SanctionStage'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Span_Documents Submission (stage)'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Activated'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Pending(Stage Status)'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/span_Stage Status'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Dropdown_Pending (stage status)'))
 
@@ -99,21 +101,21 @@ WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Stage
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Update(StageMapping)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/mat-icon_close'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/mat-icon close'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_CreateAttachView'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Button_CreateAttachView'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Loan Scheme'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_BNPL DEMO Scheme'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Dropdown_Loan scheme selection'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Button_Submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Button_Submit(loan scheme)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/td_Automation Buy Now Pay Later'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/td_Automation Invoice Finance'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Activation_StageMapping_Edit'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/Button_Edit (stage mapping)'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/span_Pending(Stage Status)'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_Invoice Finance/span_Stage Status'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/StageMapping_BNPL/Activation_Completed'))
 

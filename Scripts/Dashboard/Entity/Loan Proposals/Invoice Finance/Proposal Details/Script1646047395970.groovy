@@ -19,9 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('Search_merit tech'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Search_merit tech'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/div_Entity'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Proposal Details/div_JAGADISH KELAGERI CIVIL WORKS CONTRACTOR'))
+//WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Proposal Details/div_JAGADISH KELAGERI CIVIL WORKS CONTRACTOR'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Proposal Details/Headder_Loan Proposals'))
 

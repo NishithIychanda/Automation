@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CAM</name>
+   <name>Promissory Note</name>
    <tag></tag>
-   <elementGuidId>802903e7-d760-4532-8c9a-6ad24880fd8d</elementGuidId>
+   <elementGuidId>fb9c0c94-9f10-4102-aba9-a52492773608</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='CAM']</value>
+         <value>//input[@id='Promissory Note']</value>
       </entry>
       <entry>
          <key>BASIC</key>

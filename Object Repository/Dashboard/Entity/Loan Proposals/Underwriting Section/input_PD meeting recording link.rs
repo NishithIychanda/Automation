@@ -6,12 +6,12 @@
    <elementGuidId>0fe5cccb-ab63-4d6e-9bf7-f286d98c0c70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#en-sec-actions-details-pdMeetingRecordingLink</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='en-sec-actions-details-pdMeetingRecordingLink']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#en-sec-actions-details-pdMeetingRecordingLink</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

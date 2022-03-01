@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CAM</name>
+   <name>Bank Guarantee</name>
    <tag></tag>
-   <elementGuidId>802903e7-d760-4532-8c9a-6ad24880fd8d</elementGuidId>
+   <elementGuidId>91bfc0d0-3169-46ef-af4b-50547c47bd4e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='CAM']</value>
+         <value>//input[@id='Bank Guarantee']</value>
       </entry>
       <entry>
          <key>BASIC</key>

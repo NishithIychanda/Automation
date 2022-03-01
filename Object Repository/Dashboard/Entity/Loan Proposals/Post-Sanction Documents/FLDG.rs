@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CAM</name>
+   <name>FLDG</name>
    <tag></tag>
-   <elementGuidId>802903e7-d760-4532-8c9a-6ad24880fd8d</elementGuidId>
+   <elementGuidId>af0c0f64-797c-4ff1-ac77-c2adbf249e29</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='CAM']</value>
+         <value>//input[@id='FLDG']</value>
       </entry>
       <entry>
          <key>BASIC</key>

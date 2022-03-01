@@ -17,7 +17,6 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
 //WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/span_firmtype'), FailureHandling.STOP_ON_FAILURE)
@@ -34,7 +33,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Gst number'), '33AABCM9806E1ZO')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Gst number'), '29ABKFA6464H2Z1')
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Button_Ok'))
 

@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Pre-Sanction Documents/CAM'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Pre-Sanction Documents/CAM'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Pre-Sanction Documents/Internal Sanction Letter'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Pre-Sanction Documents/Internal Sanction Letter'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Pre-Sanction Documents/Visit Report'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Pre-Sanction Documents/Visit Report'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 

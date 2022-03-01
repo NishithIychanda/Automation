@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CAM</name>
+   <name>span_Stage Status</name>
    <tag></tag>
-   <elementGuidId>802903e7-d760-4532-8c9a-6ad24880fd8d</elementGuidId>
+   <elementGuidId>d78af5e3-155e-473b-8e19-6e0f76a1b63c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='CAM']</value>
+         <value>//mat-select[@id='en-sec-proposal-stage-mapping-stageStatus']</value>
       </entry>
       <entry>
          <key>BASIC</key>

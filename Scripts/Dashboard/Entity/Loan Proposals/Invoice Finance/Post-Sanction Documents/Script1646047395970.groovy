@@ -17,59 +17,59 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Sanction Letter'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Sanction Letter'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Corporate Guarantee'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Corporate Guarantee'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/FLDG'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/FLDG'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Promissory Note'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Promissory Note'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/MoU'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/MoU'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Security Cheques'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Security Cheques'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/FD Lien Marked'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/FD Lien Marked'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Borrower Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Borrower Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Lender Partner Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Lender Partner Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Deed of Authority'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Deed of Authority'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Demand Promissory Note'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Demand Promissory Note'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Bank Guarantee'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Bank Guarantee'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/Cash Collateral'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/Cash Collateral'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Post-Sanction Documents/PF Invoice'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Loan Proposals/Post-Sanction Documents/PF Invoice'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Additional Documents/Button_Save'))
 

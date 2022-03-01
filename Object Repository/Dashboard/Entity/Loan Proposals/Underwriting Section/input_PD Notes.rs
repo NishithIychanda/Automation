@@ -6,12 +6,12 @@
    <elementGuidId>bfee95b1-befc-425e-8841-2ea4d22565e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#en-sec-actions-details-pdNotes</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//textarea[@id='en-sec-actions-details-pdNotes']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#en-sec-actions-details-pdNotes</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

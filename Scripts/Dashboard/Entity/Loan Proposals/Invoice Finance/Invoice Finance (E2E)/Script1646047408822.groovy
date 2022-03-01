@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance/Proposal Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance/Underwriting Section'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -34,4 +32,6 @@ WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance/Pre-Sanction Documents'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance/Post-Sanction Documents'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance/StageMapping'), [:], FailureHandling.STOP_ON_FAILURE)
 

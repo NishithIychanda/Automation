@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Serach merit technology/search field'))
 
-WebUI.sendKeys(findTestObject('Serach merit technology/search field'), 'MERIT TECHNOLOGIES INDIA LIMITED')
+WebUI.sendKeys(findTestObject('Serach merit technology/search field'), 'ATLASSIAN INDIA LLP')
 
 WebUI.delay(5)
 

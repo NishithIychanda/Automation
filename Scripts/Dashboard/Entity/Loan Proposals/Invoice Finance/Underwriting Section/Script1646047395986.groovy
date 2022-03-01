@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Underwriting Section/Button_Edit'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Underwriting Section/Button_Edit'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Underwriting Section/input_PD Notes'), 'PD Notes')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Underwriting Section/input_PD Notes'), 'PD Notes')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Underwriting Section/input_Open Query'), 'Open Query')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Underwriting Section/input_Open Query'), 'Open Query')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Underwriting Section/input_PD meeting recording link'), 'https://drive.google.com/drive/folders/automation')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Underwriting Section/input_PD meeting recording link'), 'https://drive.google.com/drive/folders/automation')
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Underwriting Section/Button_Update'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Underwriting Section/Button_Update'))
 
 
