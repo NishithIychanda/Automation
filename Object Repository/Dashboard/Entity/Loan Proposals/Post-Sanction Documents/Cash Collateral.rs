@@ -6,11 +6,12 @@
    <elementGuidId>a8390fc2-47cf-4e23-8ba9-1a4ce72e5e7f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Cash Collateral']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Cash Collateral']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

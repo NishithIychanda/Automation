@@ -6,11 +6,12 @@
    <elementGuidId>a177c60d-7e96-45a0-92b3-6d5c03461be9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Deed of Authority']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Deed of Authority']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -153,11 +153,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/Button Submit'))
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Bank Statements'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(6)
-
-WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/mat-icon_close'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Gurantor Objects/mat-icon_close(Guarantor main)'))
 

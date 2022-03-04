@@ -6,12 +6,12 @@
    <elementGuidId>fb8e309a-86e9-4a11-903d-61057f630b15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='en-sec-actions-details-openQuery']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#en-sec-actions-details-openQuery</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='en-sec-actions-details-openQuery']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(),'JAN')]</value>
+         <value>//div[contains(text(),'FEB')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,11 +6,12 @@
    <elementGuidId>fb9c0c94-9f10-4102-aba9-a52492773608</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Promissory Note']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Promissory Note']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

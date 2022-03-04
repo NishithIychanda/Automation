@@ -6,11 +6,12 @@
    <elementGuidId>ffe5989e-f515-4bb1-a1a0-888059d6e52b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='PF Invoice']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='PF Invoice']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

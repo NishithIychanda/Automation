@@ -21,13 +21,11 @@ WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/BNPL/Proposal Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance/Post Sanction Section'), 
+//WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/Invoice Finance Loan Proposal/Post Sanction Section'), 
 //   [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/BNPL/Proposal Agreement List'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/BNPL/Additional Documents'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/BNPL/StageMapping'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Loan Proposals/BNPL/StageMapping(BNPL)'), [:], FailureHandling.STOP_ON_FAILURE)
 

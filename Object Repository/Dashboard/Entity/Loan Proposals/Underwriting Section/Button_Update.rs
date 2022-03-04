@@ -6,12 +6,12 @@
    <elementGuidId>3740c38b-f0cc-4fe6-8cc6-8a224e77cf72</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Update')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Update')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

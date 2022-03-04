@@ -6,11 +6,12 @@
    <elementGuidId>090b2989-fb27-4f08-a930-15419dec33a7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Sanction Letter']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Sanction Letter']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

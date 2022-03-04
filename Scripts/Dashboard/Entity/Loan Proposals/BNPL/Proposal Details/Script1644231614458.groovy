@@ -19,70 +19,76 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/div_Entity'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tabs/div_Entity'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Header_Loan Proposals'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tabs/Tab-Loan Proposals'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Button_New Proposal'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Button/Button_New Proposal'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Proposal Name'), 'Automation Buy Now Pay Later')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Proposal Name'), 'Automation Buy Now Pay Later')
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Product Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Loan Product/Loan_Product'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Dropdown_BNPL'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Loan Product/Dropdown_BNPL'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Proposed Loan Amount'), '2000')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Proposed Loan Amount'), '2000')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_ROI'), '2')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_ROI'), '2')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Processing Fees'), '2')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Processing Fees'), '2')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/FLDG or Cash Collateral Offered'), '22')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_FLDG or Cash Collateral Offered'), '22')
 
-WebUI.scrollToElement(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Global Margin'), 2)
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Global Margin'), 2)
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_LTV'), '2')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_LTV'), '2')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Tenure'), '2')
+//WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Proposed Commercial Offered'), '2')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Tenure'), '2')
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Tenure Unit'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tenure Unit/Click-Tenure Unit'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Tenure Unit'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tenure Unit/TenureUnit_Option-Months'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Repayment Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Repayment Type/Click_Repayment Type'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Repayment Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Repayment Type/Repayment Type_options-CHURNING CYCLE'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Repayment Cycle days'), '10')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Repayment Cycle days'), '10')
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Agreement Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/AgreementType/span_Agreement Type'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_AggrementTye-BNPL'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/AgreementType/dropdown_AggrementTye(options)-BNPL Agreement'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Category'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Category/Click-Category'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Institution'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Category/Category_Options-Institution'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Borrower Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Borrower/Click-Borrower Type'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Single Borrower'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Borrower/Borrower_option-Single Borrower'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Commission Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Commission Type/Click-Commission Type'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Percentage'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Commission Type/CommissionType_option-Percentage'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Global Margin'), '22')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Global Margin'), '22')
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Loan Object Origin'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Loan Amount Origin/Click-Loan Amount Origin'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Loan scheme Origin'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Loan Amount Origin/LoanAmountOrigin_options-From Loan Scheme'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/span_Lender'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Lender/Click-Lender'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/dropdown_Lender'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Lender/Lender_option-IDFC First Bank(BNPL-EquipmentFinance)'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Approved Loan Amount'), '2222')
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Approved Loan Amount'), '2222')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/input_Purpose Of loan'), 'Automation BNPL Proposal')
+//WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Utilized Credit Limit'), '2')
+//WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tabs/span_External User Management'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Purpose Of loan'))
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Input-Attributes/input_Purpose Of loan'), 'Automation BNPL Proposal')
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Button_Submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Button/Button_Submit'))
+

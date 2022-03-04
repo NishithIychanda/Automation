@@ -6,11 +6,12 @@
    <elementGuidId>2f2c7ba2-3f14-4bc2-b00b-e9cf8cb24fb5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Lender Partner Agreement']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Lender Partner Agreement']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,11 +6,12 @@
    <elementGuidId>34c88ce6-4c50-406d-b243-dc26c98fe791</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Security Cheques']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Security Cheques']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

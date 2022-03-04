@@ -6,11 +6,12 @@
    <elementGuidId>91bfc0d0-3169-46ef-af4b-50547c47bd4e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Bank Guarantee']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Bank Guarantee']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

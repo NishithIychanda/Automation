@@ -19,22 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Serach merit technology/search field'))
-
-WebUI.sendKeys(findTestObject('Serach merit technology/search field'), 'COMMERCE INDIA')
-
+//WebUI.click(findTestObject('Serach merit technology/search field'))
+//WebUI.sendKeys(findTestObject('Serach merit technology/search field'), 'COMMERCE INDIA')
 WebUI.delay(5)
 
 //WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals(invoice Finance)/Proposal Details/div_JAGADISH KELAGERI CIVIL WORKS CONTRACTOR'))
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_MERIT TECHNOLOGIES INDIA LIMITED'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Common/div_Entity'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_Documents'))
 
-
 Actual_txt = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Actual Text'))
 
-if (Actual_txt == "Certificate of Incorporation") {
-	
+if (Actual_txt == 'Certificate of Incorporation') {
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
