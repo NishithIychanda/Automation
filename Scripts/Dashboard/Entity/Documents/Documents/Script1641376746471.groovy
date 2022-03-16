@@ -48,7 +48,8 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Articles of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Articles of Association'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -64,7 +65,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -94,14 +95,6 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Memorandum of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Articles of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
@@ -114,7 +107,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -127,26 +120,6 @@ if (Actual_txt == 'Private Limited Company') {
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Channel Logo'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audit Report'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Sample Audit Report.pdf   ')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_ITR Documents'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\ITR Documents.pdf')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Board Resolution Document'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\ITR Documents.pdf')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Dealership Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -176,7 +149,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -222,7 +195,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -272,7 +245,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -318,7 +291,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -360,7 +333,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -402,7 +375,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -422,7 +395,8 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Articles of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Articles of Association'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -448,7 +422,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -468,7 +442,8 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Articles of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Articles of Association'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -494,7 +469,7 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Agreement'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Agreement.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 

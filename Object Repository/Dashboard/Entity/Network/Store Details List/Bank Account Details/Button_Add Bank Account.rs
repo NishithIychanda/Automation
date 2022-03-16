@@ -6,12 +6,12 @@
    <elementGuidId>92b79d44-6f7c-42d9-abfd-9ca70772aef5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-4']/anchors-member/section/anchors-member-section[4]/anchors-member-details/div/anchors-table/div/div[2]/div[2]/button[2]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Add Bank Account')]</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

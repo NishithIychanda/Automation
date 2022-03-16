@@ -6,12 +6,12 @@
    <elementGuidId>f219745a-1873-4f88-be1f-93c40e23beb7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-12']/anchors-member/section/anchors-member-section[3]/anchors-member-details/div/anchors-table/div/div[2]/div[3]/button[2]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Add Store Manager')]</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

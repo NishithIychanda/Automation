@@ -6,12 +6,12 @@
    <elementGuidId>fd4ea088-57d8-481b-ae4f-818929826b77</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-program-focused > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+         <key>XPATH</key>
+         <value>//mat-icon[contains(text(),'close')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-1']/anchors-member/section/mat-toolbar/button/span/mat-icon</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-icon-button.mat-button-base.cdk-focused.cdk-program-focused > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

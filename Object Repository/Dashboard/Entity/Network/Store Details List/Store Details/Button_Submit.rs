@@ -6,12 +6,12 @@
    <elementGuidId>b5dc3982-fc6f-43de-b061-b83b1e15cfb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-4']/anchors-member/section/anchors-member-section/anchors-forms/anchors-form-builder/div/div/button/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Submit')]</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

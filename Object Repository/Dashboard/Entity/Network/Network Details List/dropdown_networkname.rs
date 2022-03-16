@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Greenizon Agritech Consultancy Private Limited')]</value>
+         <value>//span[contains(text(),' A B T  INDUSTRIES LIMITED ')]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body/div[1]/div[1]/anchors-section-renderer[1]/div[1]/anchors-content-decider[1]/anchors-member-details[1]/div[1]/anchors-table[1]/div[1]/div[2]/div[3]/button[2]</value>
+         <value>//span[contains(text(),'Add New Network')]</value>
       </entry>
       <entry>
          <key>CSS</key>

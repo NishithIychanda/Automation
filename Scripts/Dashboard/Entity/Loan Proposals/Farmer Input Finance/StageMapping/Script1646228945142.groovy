@@ -17,14 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tabs/div_Entity'))
-
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tabs/Tab-Loan Proposals'))
-
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Common/td_Automation Farmer Input Invoice'))
-
+//WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tabs/div_Entity'))
+//WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Proposal Details/Tabs/Tab-Loan Proposals'))
+//WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Common/td_Automation Farmer Input Invoice'))
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Button/Button-StageMapping_Edit'))
 
 //WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Document Submission/Click_Stage'))
@@ -34,7 +30,6 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Button/
 //WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Document Submission/Stage Comment'), 'Document submission pending')
 //WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Button/Button-DocumentSubmission_Update'))
 //WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Extra/i_check_circle(EquipmentFinance)'))
-
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Button/Button-StageMapping_Edit'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Document Submission/Click-Stage Status'))
@@ -112,7 +107,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Button/
 //WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Extra/div_Manually added,but unverified_cdk-overl_aafab3'))
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Mat-icon/mat-icon_close'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Extra/span_CreateAttachView'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/Button/Create View Attach'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/StageMapping/CreateAttach Loan Scheme/Click-Loan Scheme'))
 

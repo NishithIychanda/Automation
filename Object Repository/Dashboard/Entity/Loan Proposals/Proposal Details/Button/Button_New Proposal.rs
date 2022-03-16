@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-5']/div/div/anchors-section-renderer/div/anchors-content-decider/anchors-member-details/div/anchors-table/div/div[2]/div[2]/button[3]/span</value>
+         <value>//span[contains(text(),'New Proposal')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

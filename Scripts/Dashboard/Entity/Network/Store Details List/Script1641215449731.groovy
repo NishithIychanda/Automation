@@ -27,12 +27,11 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store De
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/headder_Network'))
 
 //Adding new Store details
-WebUI.scrollToElement(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Button_Add New Store'), 
-    3)
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/span_Add New Store'), 3)
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Button_Add New Store'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/span_Add New Store'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/input_storeName'), StoreName)
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/input_storeName'), 'PK jwellers')
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/span_StoreType'))
 
@@ -44,164 +43,111 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store De
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Button_Submit'))
 
-ToastMessage = WebUI.getText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Toast Message'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Button_Edit'))
 
-println('' + ToastMessage)
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_pincode'), '571218')
 
-if (ToastMessage == 'Fetched Successfully 🎂') {
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Button_Edit(current address)'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Village'), 'devanageri')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_pincode'), '571218')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Landmark'), 'school')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Village'), 'devanageri')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Address1'), 'street2')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Landmark'), 'school')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Address2'), 'block 2')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Address1'), 'street2')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/span_AddressType'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Address2'), 'block 2')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/dropdown_Rented'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/span_AddressType'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_yearsInCurrentAddress'), 
+    '2')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/dropdown_Rented'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Longitude'), '37.2')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_yearsInCurrentAddress'), 
-        '2')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Latitude'), '36.2')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Longitude'), '37.2')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Button_Update'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Latitude'), '36.2')
+//Adding Store Manager details
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/button_Add Store Manager'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Button_Update'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_managerName'), 'Test Manager')
 
-    //Adding Store Manager details
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/button_Add Store Manager'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Fathers Name'), 'Test Father')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_managerName'), 
-        'Test Manager')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_MotherName'), 'Test Mother')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Fathers Name'), 
-        'Test Father')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_maritialStatus'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_MotherName'), 'Test Mother')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_maritialStatus'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_maritialStatus'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_PAN'), 'AABCM9806E')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_maritialStatus'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Email'), 'storemanager@jai-kisan.com')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_PAN'), 'AABCM9806E')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_mobilenumber'), '8767675678')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Email'), 'storemanager@jai-kisan.com')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_gender'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_mobilenumber'), 
-        '8767675678')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_gender'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_gender'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Aadhar number'), '899266172791')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_gender'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_Status'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Aadhar number'), 
-        '899266172791')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_status'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_Status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_jkPlatformAccess'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_JKPlatformAccess'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_jkPlatformAccess'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/svg_DatePicker'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_JKPlatformAccess'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_calendar-invert'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/svg_DatePicker'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_calendar-arrow'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_calendar-invert'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_year'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_calendar-arrow'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_month'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_year'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_day'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_month'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/button_submit'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_day'))
+WebUI.waitForPageLoad(5)
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/button_submit'))
+WebUI.verifyElementText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/div_Test Auto'), 
+    'PK jwellers')
 
-    WebUI.waitForPageLoad(5)
+//Adding bank Account details
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/div_Test Auto'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Edit(permanent Address)'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Button_Add Bank Account'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Pincode(Permanaent Address)'), 
-        '571218')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_AccNumber'), '0456101022909')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Village(Permanent Address)'), 
-        'Devanageri')
+WebUI.setEncryptedText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_Account NumberConfirmation'), 
+    'fZRK1zp1+yrJ/gRVjTKHzQ==')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Landmark(Permanent Address)'), 
-        'PlayGround')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_AccountHolderName'), 
+    'test A')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Street1(Premanent address)'), 
-        'Automation')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_Ifsc'), 'CNRB0000456')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_street2(permanent address)'), 
-        'Automation')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_AccountType'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_addressType(permanent address)'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_AccountType'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_address type'))
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_mobileNumber'), '9898989890')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_no of years in address(permanent address)'), 
-        '2')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Span_IsPrimaryAccount'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_lattitude(permanent address)'), 
-        '30.98')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_IsPrimaryAccount'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_longitude(permanent address)'), 
-        '30.98')
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_Status'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Button_Update(permanent address)'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_status'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Button_Edit(Current address)'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/toggle(current address)'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Button_Update(current address)'))
-
-    WebUI.callTestCase(findTestCase('Dashboard/Entity/Promoter Guarantor/Documents'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Close Icon'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Button_Add Bank Account'))
-
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_AccNumber'), '0456101022909')
-
-    WebUI.setEncryptedText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_Account NumberConfirmation'), 
-        'fZRK1zp1+yrJ/gRVjTKHzQ==')
-
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_AccountHolderName'), 
-        'test A')
-
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_Ifsc'), 'CNRB0000456')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_AccountType'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_AccountType'))
-
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_mobileNumber'), 
-        '9898989890')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Span_IsPrimaryAccount'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_IsPrimaryAccount'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_Status'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_status'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Button_Submit'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/close icon'))
-} else {
-    WebUI.takeScreenshot()
-
-    println(ToastMessage)
-}
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_Submit'))
 

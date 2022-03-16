@@ -41,22 +41,5 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/dropdo
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_Submit'))
 
-WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/Network/Network Details List/Success Toast message'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/icon_close'))
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Dashboard/Entity/Network/Network Details List/input_Search'), NetworkName)
-
-WebUI.delay(5)
-
-search_result = WebUI.getText(findTestObject('Dashboard/Entity/Network/Network Details List/search result') )
-        
-if (search_result == NetworkName) {
-	println("Search successfull")
-}
-else {
-	println ("search failed  or No records found")
-}
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/icon_close'))
 
