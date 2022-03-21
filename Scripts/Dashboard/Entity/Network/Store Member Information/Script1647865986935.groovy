@@ -177,3 +177,15 @@ WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Sto
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
 
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Add New Document/Button_Add New Docuemnt'))
+
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Add New Document/input_FileName'), 
+    'Storememberdoc')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Add New Document/Save icon'))
+
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Add New Document/UploadFile'), 
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
+
