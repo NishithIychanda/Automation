@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Network</name>
+   <name>Button_Submit</name>
    <tag></tag>
-   <elementGuidId>bc9e599f-ec89-421d-ad8a-bad4fba3bb59</elementGuidId>
+   <elementGuidId>b5dc3982-fc6f-43de-b061-b83b1e15cfb0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mat-tab-label-1-4']/div</value>
+         <value>//span[contains(text(),'Submit')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mat-tab-label-1-4 > div.mat-tab-label-content</value>
+         <value>button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-tab-label-content</value>
+      <value>mat-button-wrapper</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Network</value>
+      <value> Submit </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-label-1-4&quot;)/div[@class=&quot;mat-tab-label-content&quot;]</value>
+      <value>id(&quot;mat-dialog-4&quot;)/anchors-member[@class=&quot;ng-star-inserted&quot;]/section[1]/anchors-member-section[@class=&quot;ng-star-inserted&quot;]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/div[@class=&quot;jkf__btn-wrapper ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mat-tab-label-1-4']/div</value>
+      <value>//mat-dialog-container[@id='mat-dialog-4']/anchors-member/section/anchors-member-section/anchors-forms/anchors-form-builder/div/div/button/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SPOCs'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Proposals'])[1]/preceding::div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Details'])[1]/preceding::div[6]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Network']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[5]/div</value>
+      <value>//anchors-form-builder/div/div/button/span</value>
    </webElementXpaths>
 </WebElementEntity>

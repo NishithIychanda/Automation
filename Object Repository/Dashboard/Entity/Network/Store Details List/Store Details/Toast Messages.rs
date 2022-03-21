@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Status</name>
+   <name>Toast Messages</name>
    <tag></tag>
-   <elementGuidId>27baa773-f46c-40fc-a4f3-e83b13545afb</elementGuidId>
+   <elementGuidId>06b2bab1-e1a9-4be7-ba4e-6493403a5390</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-select[@id='en-sec-store-details-status']</value>
+         <value>//span[contains(text(),'This Store already exists.') or contains(text(),'Fetched Successfully 🎂')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
