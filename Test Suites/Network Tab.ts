@@ -36,6 +36,12 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>8ecad831-634a-4d49-afc5-1c710719b52e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard/Entity/Network/Upload Store Documents</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>beb4366f-2c6c-4c0a-9750-30c825e229d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
