@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email</name>
+   <name>button_submit</name>
    <tag></tag>
-   <elementGuidId>f690e0e6-5f88-4d85-ac0c-47321f6dab99</elementGuidId>
+   <elementGuidId>b580d4eb-9824-4c31-b700-1ee56ba522ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='en-sec-store-manager-info-email']</value>
+         <value>//span[contains(text(),'Submit')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

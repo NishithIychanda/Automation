@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_PAN</name>
+   <name>input_mobilenumber</name>
    <tag></tag>
-   <elementGuidId>00fa38df-291d-48b4-8461-661ace7763dd</elementGuidId>
+   <elementGuidId>ccb8229d-618c-4ff4-91e1-7825f68e6dbb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='en-sec-store-manager-info-kyc']</value>
+         <value>//input[@id='en-sec-store-manager-info-mobileNumber']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

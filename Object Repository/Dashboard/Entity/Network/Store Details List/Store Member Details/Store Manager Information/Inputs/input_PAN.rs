@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_JKPlatformAccess</name>
+   <name>input_PAN</name>
    <tag></tag>
-   <elementGuidId>90e4cbaa-6bdf-40b6-a7be-0d34b28adf89</elementGuidId>
+   <elementGuidId>00fa38df-291d-48b4-8461-661ace7763dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'No')]</value>
+         <value>//input[@id='en-sec-store-manager-info-kyc']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>f17f07e7-ce0b-4b36-a1f3-36655aca4ad6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>svg.mat-datepicker-toggle-default-icon.ng-star-inserted</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[2]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.mat-datepicker-toggle-default-icon.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

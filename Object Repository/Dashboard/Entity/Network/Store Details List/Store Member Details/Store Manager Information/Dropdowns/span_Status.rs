@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Aadhar number</name>
+   <name>span_Status</name>
    <tag></tag>
-   <elementGuidId>fc771146-e00e-454a-8321-406c81531d64</elementGuidId>
+   <elementGuidId>6d7ed403-44a1-4c76-ae83-97e1dbef297e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='en-sec-store-manager-info-uidNo']</value>
+         <value>//mat-select[@id='en-sec-store-manager-info-status']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

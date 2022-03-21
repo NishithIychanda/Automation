@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_mobilenumber</name>
+   <name>input_Email</name>
    <tag></tag>
-   <elementGuidId>ccb8229d-618c-4ff4-91e1-7825f68e6dbb</elementGuidId>
+   <elementGuidId>f690e0e6-5f88-4d85-ac0c-47321f6dab99</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='en-sec-store-manager-info-mobileNumber']</value>
+         <value>//input[@id='en-sec-store-manager-info-email']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

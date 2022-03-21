@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>//span[contains(text(),'Female')]</description>
-   <name>dropdown_gender</name>
+   <description></description>
+   <name>dropdown_status</name>
    <tag></tag>
-   <elementGuidId>7f7a0038-ad3f-41d8-ba61-17d8faae2d8b</elementGuidId>
+   <elementGuidId>80addb64-1740-486c-ba5b-6849d7b7cbf1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Female')]</value>
+         <value>//span[contains(text(),'Active')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

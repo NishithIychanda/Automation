@@ -73,55 +73,55 @@ if (toast_message == 'Fetched Successfully 🎂') {
     WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Buttons/Button_Update'))
 
     //Adding Store Manager details
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/button_Add Store Manager'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Buttons/button_Add Store Manager'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_managerName'), 
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Inputs/input_managerName'), 
         'Test Manager')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Fathers Name'), 
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Inputs/input_Fathers Name'), 
         'Test Father')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_MotherName'), 'Test Mother')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Inputs/input_MotherName'), 'Test Mother')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_maritialStatus'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/span_maritialStatus'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_maritialStatus'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/dropdown_maritialStatus'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_PAN'), 'AABCM9806E')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Inputs/input_PAN'), 'AABCM9806E')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Email'), 'storemanager@jai-kisan.com')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Inputs/input_Email'), 'storemanager@jai-kisan.com')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_mobilenumber'), 
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Inputs/input_mobilenumber'), 
         '8767675678')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_gender'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/span_gender'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_gender'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/dropdown_gender'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/input_Aadhar number'), 
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Inputs/input_Aadhar number'), 
         '899266172791')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_Status'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/span_Status'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_status'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/dropdown_status'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/span_jkPlatformAccess'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/span_jkPlatformAccess'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/dropdown_JKPlatformAccess'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dropdowns/dropdown_JKPlatformAccess'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/svg_DatePicker'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dob Datepicker/svg_DatePicker'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_calendar-invert'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dob Datepicker/div_calendar-invert'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_calendar-arrow'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dob Datepicker/div_calendar-arrow'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_year'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dob Datepicker/div_year'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_month'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dob Datepicker/div_month'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/div_day'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Dob Datepicker/div_day'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/button_submit'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Buttons/button_submit'))
 
     WebUI.waitForPageLoad(5)
 

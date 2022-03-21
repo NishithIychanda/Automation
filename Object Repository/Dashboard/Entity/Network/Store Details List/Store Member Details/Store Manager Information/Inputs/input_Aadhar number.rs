@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submit</name>
+   <name>input_Aadhar number</name>
    <tag></tag>
-   <elementGuidId>b580d4eb-9824-4c31-b700-1ee56ba522ea</elementGuidId>
+   <elementGuidId>fc771146-e00e-454a-8321-406c81531d64</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Submit')]</value>
+         <value>//input[@id='en-sec-store-manager-info-uidNo']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
