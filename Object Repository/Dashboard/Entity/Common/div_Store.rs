@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Store</name>
+   <tag></tag>
+   <elementGuidId>659a1040-7587-423e-8bca-aa456312725f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/anchors-root[1]/anchors-anchors-container[1]/anchors-application-details[1]/div[1]/div[3]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[5]/div[1]/div[1]/anchors-section-renderer[1]/div[1]/anchors-content-decider[2]/anchors-member-details[1]/div[1]/anchors-table[1]/div[1]/div[3]/anchors-table-card[1]/mat-card[1]/mat-card-content[1]/div[1]/anchors-table-base[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

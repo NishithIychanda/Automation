@@ -73,39 +73,36 @@ if (toast_message == 'Fetched Successfully 🎂') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Buttons/Button_Update'))
 
-    WebUI.callTestCase(findTestCase('Dashboard/Entity/Network/Store Member Information'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Button/Button_Add Bank Account'))
 
-    //Adding bank Account details
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/div_Test Auto'))
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Inputs/input_AccNumber'), 
+        '0456101022909')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Button_Add Bank Account'))
-
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_AccNumber'), '0456101022909')
-
-    WebUI.setEncryptedText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_Account NumberConfirmation'), 
+    WebUI.setEncryptedText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Inputs/input_Account NumberConfirmation'), 
         'fZRK1zp1+yrJ/gRVjTKHzQ==')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_AccountHolderName'), 
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Inputs/input_AccountHolderName'), 
         'test A')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_Ifsc'), 'CNRB0000456')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Inputs/input_Ifsc'), 
+        'CNRB0000456')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_AccountType'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/span_AccountType'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_AccountType'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/dropdown_AccountType'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/input_mobileNumber'), 
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Inputs/input_mobileNumber'), 
         '9898989890')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Span_IsPrimaryAccount'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/Span_IsPrimaryAccount'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_IsPrimaryAccount'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/dropdown_IsPrimaryAccount'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_Status'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/span_Status'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/dropdown_status'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/dropdown_status'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/span_Submit'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Button/Button_Submit'))
 } else {
     System.println(toast_message)
 

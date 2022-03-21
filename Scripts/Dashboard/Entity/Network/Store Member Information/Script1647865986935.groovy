@@ -17,6 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Dashboard/Entity/Common/div_Entity'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-Network'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Common/div_Store'))
+
 //Adding Store Manager details
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Store Manager Information/Buttons/button_Add Store Manager'))
 
@@ -135,4 +143,37 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Me
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Current Address/Dropdowns/dropdown_Leased'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Current Address/Buttons/button_update'))
+
+//DOCUEMNTS****************************************************************
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Upload/Upload_Profile Photo'), 
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
+
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Upload/Upload_Aadhar Card Front'), 
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
+
+//WebUI.scrollToElement(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promoter Document/Upload/Upload_CA Certified NetWorth'),
+//    2)
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Upload/Upload_Aadhar Card Back'), 
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
+
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Upload/Upload_Address Proof'), 
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
+
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Upload/Upload_KYC'), 
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
+
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Upload/Upload_CA Certified NetWorth'), 
+    'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
+
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/Documents/Button/Button Save'))
 
