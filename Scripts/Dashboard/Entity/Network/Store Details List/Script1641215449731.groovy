@@ -32,45 +32,45 @@ WebUI.scrollToElement(findTestObject('Dashboard/Entity/Network/Store Details Lis
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Button_Add New Store'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/input_storeName'), 'Moogle Play')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Inputs/input_storeName'), 'Moogle Play')
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/span_StoreType'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Store Type/span_StoreType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/dropdown_StoreType'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Store Type/dropdown_StoreType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/span_Status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Status/span_Status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/dropdown_Status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Status/dropdown_Status'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Button_Submit'))
 
-toast_message = WebUI.getText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Toast Messages'))
+toast_message = WebUI.getText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Toast message/Toast Messages'))
 
 if (toast_message == 'Fetched Successfully 🎂') {
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Button_Edit'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Buttons/Button_Edit'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_pincode'), '571218')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_pincode'), '571218')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Village'), 'devanageri')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_Village'), 'devanageri')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Landmark'), 'school')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_Landmark'), 'school')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Address1'), 'street2')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_Address1'), 'street2')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Address2'), 'block 2')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_Address2'), 'block 2')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/span_AddressType'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Address Type/span_AddressType'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/dropdown_Rented'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Address Type/dropdown_Rented'))
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_yearsInCurrentAddress'), 
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_yearsInCurrentAddress'), 
         '2')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Longitude'), '37.2')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_Longitude'), '37.2')
 
-    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/input_Latitude'), '36.2')
+    WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Inputs/input_Latitude'), '36.2')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Button_Update'))
+    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Buttons/Button_Update'))
 
     //Adding Store Manager details
     WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Member Details/button_Add Store Manager'))

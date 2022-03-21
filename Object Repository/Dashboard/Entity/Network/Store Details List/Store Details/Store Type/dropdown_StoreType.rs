@@ -6,12 +6,12 @@
    <elementGuidId>5defa520-f40e-4bbf-b94e-5b5598ff3165</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-17 > span.mat-option-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[contains(text(),'Branch')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-17 > span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
