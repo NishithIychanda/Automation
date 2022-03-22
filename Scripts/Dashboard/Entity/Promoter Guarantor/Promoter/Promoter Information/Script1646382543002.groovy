@@ -53,7 +53,7 @@ WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promo
 
 WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promoter Information/Input/Email'), 'automationpromoter+1@jai-kisan.com')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Account Information/Input/Mobile Number'), '9898989890')
+WebUI.setText(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Account Information/Input/Mobile Number'), '9898989811')
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promoter Information/JK Access Required/Click-JK Platform Access Required'))
 
@@ -68,4 +68,12 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promote
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promoter Information/Status/Status_option-Active'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promoter Information/Button/Button_Submit'))
+
+Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Toast Messages/Toast message'))
+
+if (Toast_Message == 'Fetched Successfully 🎂') {
+    System.println('Promoter Created Successfully')
+} else {
+    System.println(Toast_Message)
+}
 
