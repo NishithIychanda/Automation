@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Active</name>
+   <name>span_networkType</name>
    <tag></tag>
-   <elementGuidId>c708a529-27ed-48bf-97a9-38e7d22084eb</elementGuidId>
+   <elementGuidId>cf0d1848-75a9-43ac-aa43-e8f9c1758061</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Active')]</value>
+         <value>//mat-select[@id='en-sec-network-partner-details-networkType']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

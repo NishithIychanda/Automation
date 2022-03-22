@@ -25,21 +25,27 @@ WebUI.click(findTestObject('Dashboard/Entity/Common/div_Entity'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-Network'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Button_Add New Network'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Buttons/Button_Add New Network'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_network name'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/span_network name'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/dropdown_networkname'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/dropdown_networkname'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_networkType'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/span_networkType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/dropdown_DistributorType'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/dropdown_DistributorType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_Status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/span_Status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/dropdown_Active'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/dropdown_Active'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_Submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Buttons/Button_Submit'))
+
+Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Network/Network Details List/Toast Messages/Toast Message'))
+
+System.println(Toast_Message)
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/icon_close'))
 
