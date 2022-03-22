@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Add New Network</name>
+   <name>Button_Add New Network</name>
    <tag></tag>
    <elementGuidId>8117f58c-52d9-415c-9115-9492cfc39f96</elementGuidId>
    <selectorCollection>

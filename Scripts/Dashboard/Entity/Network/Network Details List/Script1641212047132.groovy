@@ -21,11 +21,11 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/div_EN-220103-001495'))
+WebUI.click(findTestObject('Dashboard/Entity/Common/div_Entity'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/headder_Network'))
+WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-Network'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_Add New Network'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Button_Add New Network'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/span_network name'))
 
