@@ -70,3 +70,11 @@ WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promote
 
 WebUI.click(findTestObject('Dashboard/Entity/Promoter Guarantor/Promoter/Promoter Information/Button/Button_Submit'))
 
+Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Promoter Guarantor/Guarantor/Toast Messages/Toast message'))
+
+if (Toast_Message == 'Fetched Successfully 🎂') {
+    System.println('Guarantor Created Successfully')
+} else {
+    System.println(Toast_Message)
+}
+
