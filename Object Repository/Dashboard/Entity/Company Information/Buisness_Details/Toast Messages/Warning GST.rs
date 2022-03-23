@@ -6,12 +6,11 @@
    <elementGuidId>96e0ddae-268b-49d3-b7c9-cde794209bb5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[contains(text(),'This GSTIN is already Registered with us.')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

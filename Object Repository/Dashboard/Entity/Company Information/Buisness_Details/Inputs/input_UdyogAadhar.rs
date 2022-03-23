@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Toast Message</name>
+   <name>input_UdyogAadhar</name>
    <tag></tag>
-   <elementGuidId>77111e2e-4bd8-444c-8ce0-896fe231d972</elementGuidId>
+   <elementGuidId>4afa91e3-c3c2-4e6a-a42c-4401c32ba5c8</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='en-sec-firm-isGst-udyogAadhaar']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'This GSTIN is already Registered with us.') or contains(text(),'Fetched Successfully 🎂')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

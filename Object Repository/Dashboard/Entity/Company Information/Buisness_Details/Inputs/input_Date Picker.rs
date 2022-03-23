@@ -6,12 +6,12 @@
    <elementGuidId>4fcc1391-4635-4683-989e-cc98aa443b5f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>path</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//mat-tab-body/div[1]/div[1]/anchors-section-renderer[1]/div[1]/anchors-content-decider[1]/anchors-forms[1]/anchors-form-builder[1]/div[1]/form[1]/jkf-element-builder[11]/anchors-wrapper-element[1]/anchors-date-wrapper[1]/div[1]/div[1]/div[1]/anchors-date-input[1]/div[1]/mat-form-field[1]/div[1]/div[1]/div[4]/mat-datepicker-toggle[1]/button[1]/span[1]/*[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
