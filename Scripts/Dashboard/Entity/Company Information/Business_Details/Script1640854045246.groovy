@@ -34,14 +34,12 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Buisness PAN'), 'AACCM4684P')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_CIN'), 'L21781KA2019OPC141331')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_FSSAI License'), '10015042002221')
-
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Gst number'), '08AACCM4684P1ZR')
-
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Buttons/Button_Ok'))
-
+//WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Buisness PAN'), 'AACCM4684P')
+//WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_FSSAI License'), '10015042002221')
+//WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Gst number'), '08AACCM4684P1ZR')
+//WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Buttons/Button_Ok'))
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Date Picker'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_month'))
@@ -66,6 +64,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Detail
 
 ToastMessage = WebUI.getText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Toast Messages/Toast Message'))
 
+//DUPLICATE BUISNESS PAN/GST /FSSAI /UDYOG AADAR / CIN
 if (ToastMessage == 'Fetched Successfully') {
     println(('****************' + ToastMessage) + '**********************')
 } else {
