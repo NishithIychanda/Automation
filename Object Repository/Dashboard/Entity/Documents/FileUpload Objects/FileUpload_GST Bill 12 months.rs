@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FileUpload_Registration Certificate</name>
+   <name>FileUpload_GST Bill 12 months</name>
    <tag></tag>
-   <elementGuidId>fcfc9a40-860e-47e2-a1ab-379850abbcdd</elementGuidId>
+   <elementGuidId>97cb2f3d-3680-4016-8745-e257772279db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Registration Certificate']</value>
+         <value>//*[@id=&quot;GST Bill 12 months&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

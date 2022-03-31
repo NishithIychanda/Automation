@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FileUpload_Deed Date</name>
+   <name>FileUpload_By Laws</name>
    <tag></tag>
-   <elementGuidId>eabd5a07-56da-4d82-ac33-715ee7fdb77b</elementGuidId>
+   <elementGuidId>76c1b692-c950-403c-be2e-04baaf9bb8e2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Deed Document']</value>
+         <value>//input[@id='By Laws']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

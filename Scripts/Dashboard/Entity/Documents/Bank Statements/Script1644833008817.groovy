@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_MERIT TECHNOLOGIES INDIA LIMITED'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_Documents'))
 

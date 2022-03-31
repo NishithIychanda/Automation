@@ -32,19 +32,19 @@ System.println(Actual_txt)
 //Result = (Actual_txt == ('Public Limited Company'))
 //System.println(Result)
 if (Actual_txt == 'Private Limited Company') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Memorandum of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Memorandum of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -53,15 +53,15 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -69,41 +69,41 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Public Limited Company') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -111,41 +111,41 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Trust') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -153,45 +153,45 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_By Laws'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_By Laws'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Deed Date'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Deed Date'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Partnership') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -199,49 +199,49 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Registration Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Registration Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Deed Date'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Deed Date'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Limited Liability Partnership') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -249,45 +249,45 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Registration Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Registration Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Deed Date'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Deed Date'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Proprietorship') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -295,41 +295,41 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'One Person Company') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -337,41 +337,41 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Section 8 Company') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Account.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -379,19 +379,19 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Memorandum of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Memorandum of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -402,23 +402,23 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Limited Liability Company') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -426,19 +426,19 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Memorandum of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Memorandum of Association'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -449,23 +449,23 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.callTestCase(findTestCase('Dashboard/Entity/Documents/Additional Docuemnts'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (Actual_txt == 'Co-Operative Society') {
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GST Certificate.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Company PAN Card.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audited Financials 3 Years'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Audited Financials 3 Years.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Ledgers Upload'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Ledgers Upload.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
@@ -473,23 +473,23 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Udyog Aadhaar'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Udyog Aadhaar.jpg')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Shop Act License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Shop Act License.pdf')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_FSSAI License'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_Registration Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Registration Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload_By Laws'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_By Laws'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\FSSAI License.pdf  ')
 
     WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
 
