@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_add bank statements</name>
+   <name>dropdown_docType</name>
    <tag></tag>
-   <elementGuidId>442231ea-a049-4293-8594-d35cf7258f5c</elementGuidId>
+   <elementGuidId>002c3055-22a5-4ef3-a0e1-7ac3ad35d10f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Add Bank Statement')]</value>
+         <value>//span[contains(text(),'Scanned')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

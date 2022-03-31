@@ -19,20 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Channel Logo'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg ')
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Audit Report'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Sample Audit Report.pdf   ')
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_ITR Documents'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\ITR Documents.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Board Resolution Document'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\ITR Documents.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Dealership Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Channel Logo.jpg')
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))

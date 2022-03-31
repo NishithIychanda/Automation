@@ -23,57 +23,21 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Common/div_Entity'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_Documents'))
+WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-Documents'))
 
 Actual_txt = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Get Firm Type'))
 
 System.println(Actual_txt)
 
 if (Actual_txt == 'Private Limited Company') {
-    WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 2)
+    WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        2)
 
     //VERIFY GIFF FILE FORMAT
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-
-    WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
-
-    System.println(Toast_Message)
-
-    //VERIFY EXCEL FILE FORMAT
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-
-    WebUI.takeScreenshot()
-
-    System.println(Toast_Message)
-
-    //VERIFY ABOVE 5MB FILES
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-
-    WebUI.delay(3)
-
-    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-
-    WebUI.takeScreenshot()
-
-    System.println(Toast_Message)
-}else if (Actual_txt == 'Public Limited Company') {
-	
-	WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 2)
-	
-     //VERIFY GIFF FILE FORMAT
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
@@ -84,7 +48,7 @@ if (Actual_txt == 'Private Limited Company') {
     //VERIFY EXCEL FILE FORMAT
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
@@ -95,7 +59,7 @@ if (Actual_txt == 'Private Limited Company') {
     //VERIFY ABOVE 5MB FILES
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     WebUI.delay(3)
 
@@ -103,15 +67,40 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.takeScreenshot()
 
-    System.println(Toast_Message)
-}else if (Actual_txt == 'Trust') {
-	
-	WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 2)
-	
-     //VERIFY GIFF FILE FORMAT
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+    System.println(Toast_Message) //VERIFY GIFF FILE FORMAT
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY GIFF FILE FORMAT
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY GIFF FILE FORMAT
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY GIFF FILE FORMAT
+    //VERIFY GIFF FILE FORMAT
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY GIFF FILE FORMAT
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY GIFF FILE FORMAT
+    //VERIFY EXCEL FILE FORMAT
+    //VERIFY ABOVE 5MB FILES
+    //VERIFY GIFF FILE FORMAT
+} else if (Actual_txt == 'Public Limited Company') {
+    WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        2)
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
@@ -119,10 +108,9 @@ if (Actual_txt == 'Private Limited Company') {
 
     System.println(Toast_Message)
 
-    //VERIFY EXCEL FILE FORMAT
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
@@ -130,10 +118,9 @@ if (Actual_txt == 'Private Limited Company') {
 
     System.println(Toast_Message)
 
-    //VERIFY ABOVE 5MB FILES
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     WebUI.delay(3)
 
@@ -142,12 +129,24 @@ if (Actual_txt == 'Private Limited Company') {
     WebUI.takeScreenshot()
 
     System.println(Toast_Message)
-	
-}else if (Actual_txt == 'Partnership') {
-    //VERIFY EXCEL FILE FORMAT
+} else if (Actual_txt == 'Trust') {
+    WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        2)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+    System.println(Toast_Message)
+
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
@@ -155,10 +154,9 @@ if (Actual_txt == 'Private Limited Company') {
 
     System.println(Toast_Message)
 
-    //VERIFY ABOVE 5MB FILES
     WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
     WebUI.delay(3)
 
@@ -167,243 +165,241 @@ if (Actual_txt == 'Private Limited Company') {
     WebUI.takeScreenshot()
 
     System.println(Toast_Message)
-	
+} else if (Actual_txt == 'Partnership') {
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
 
-    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'),'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-    WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-	WebUI.takeScreenshot()
-	
-	System.println(Toast_Message)
-	
-}else if (Actual_txt == 'Limited Liability Partnership') {
-	
-	WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 2)
-	
-	 //VERIFY GIFF FILE FORMAT
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.takeScreenshot()
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    System.println(Toast_Message)
 
-	WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
 
-	System.println(Toast_Message)
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	//VERIFY EXCEL FILE FORMAT
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+    WebUI.delay(3)
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    WebUI.takeScreenshot()
 
-	WebUI.takeScreenshot()
+    System.println(Toast_Message)
 
-	System.println(Toast_Message)
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
 
-	//VERIFY ABOVE 5MB FILES
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	WebUI.delay(3)
+    WebUI.takeScreenshot()
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    System.println(Toast_Message)
+} else if (Actual_txt == 'Limited Liability Partnership') {
+    WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        2)
 
-	WebUI.takeScreenshot()
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
 
-	System.println(Toast_Message)
-	
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    WebUI.delay(3)
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
 } else if (Actual_txt == 'Proprietorship') {
-	
-	//VERIFY EXCEL FILE FORMAT
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	WebUI.takeScreenshot()
+    WebUI.takeScreenshot()
 
-	System.println(Toast_Message)
+    System.println(Toast_Message)
 
-	//VERIFY ABOVE 5MB FILES
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	WebUI.delay(3)
+    WebUI.delay(3)
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	WebUI.takeScreenshot()
+    WebUI.takeScreenshot()
 
-	System.println(Toast_Message)
-	
-	//VERIFY GIFF FILE FORMAT
-	
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
-	
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-	WebUI.takeScreenshot()
-	
-	System.println(Toast_Message)
-	
-}else if (Actual_txt == 'One Person Company') {
-	WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 2)
-	
-		//VERIFY GIFF FILE FORMAT
-		WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
-	
-		WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-		Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-		WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
-	
-		System.println(Toast_Message)
-	
-		//VERIFY EXCEL FILE FORMAT
-		WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
-	
-		WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-		Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-		WebUI.takeScreenshot()
-	
-		System.println(Toast_Message)
-	
-		//VERIFY ABOVE 5MB FILES
-		WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
-	
-		WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-		WebUI.delay(3)
-	
-		Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-		WebUI.takeScreenshot()
-	
-		System.println(Toast_Message)
-	
-}else if (Actual_txt == 'Section 8 Company') {
-	WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 2)
-	
-		//VERIFY GIFF FILE FORMAT
-		WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
-	
-		WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-		Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-		WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
-	
-		System.println(Toast_Message)
-	
-		//VERIFY EXCEL FILE FORMAT
-		WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
-	
-		WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-		Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-		WebUI.takeScreenshot()
-	
-		System.println(Toast_Message)
-	
-		//VERIFY ABOVE 5MB FILES
-		WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
-	
-		WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-		WebUI.delay(3)
-	
-		Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-		WebUI.takeScreenshot()
-	
-		System.println(Toast_Message)
-	
-}else if (Actual_txt == 'Limited Liability Company') {
-	//VERIFY EXCEL FILE FORMAT
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+    System.println(Toast_Message)
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	WebUI.takeScreenshot()
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	System.println(Toast_Message)
+    WebUI.takeScreenshot()
 
-	//VERIFY ABOVE 5MB FILES
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+    System.println(Toast_Message)
+} else if (Actual_txt == 'One Person Company') {
+    WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        2)
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
 
-	WebUI.delay(3)
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	WebUI.takeScreenshot()
+    WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
-	System.println(Toast_Message)
-	
-	//VERIFY GIFF FILE FORMAT
-	
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
-	
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-	WebUI.takeScreenshot()
-	
-	System.println(Toast_Message)
-}
-else if (Actual_txt == 'Co-Operative Society') {
-	//VERIFY EXCEL FILE FORMAT
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+    System.println(Toast_Message)
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	WebUI.takeScreenshot()
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	System.println(Toast_Message)
+    WebUI.takeScreenshot()
 
-	//VERIFY ABOVE 5MB FILES
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+    System.println(Toast_Message)
 
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
 
-	WebUI.delay(3)
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
 
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+    WebUI.delay(3)
 
-	WebUI.takeScreenshot()
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
 
-	System.println(Toast_Message)
-	
-	//VERIFY GIFF FILE FORMAT
-	
-	WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
-	
-	WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Save'))
-	
-	Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
-	
-	WebUI.takeScreenshot()
-	
-	System.println(Toast_Message)
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+} else if (Actual_txt == 'Section 8 Company') {
+    WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        2)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
+        'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    WebUI.delay(3)
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+} else if (Actual_txt == 'Limited Liability Company') {
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    WebUI.delay(3)
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+} else if (Actual_txt == 'Co-Operative Society') {
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Certificate'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\Certificate of Incorporation.xlsx')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Company PAN Card'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\10MB file.jpg')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    WebUI.delay(3)
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
+
+    WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_GST Bill 12 months'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\GIF3.gif')
+
+    WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+    Toast_Message = WebUI.getText(findTestObject('Dashboard/Entity/Documents/Invalid File Format/Toast messages'))
+
+    WebUI.takeScreenshot()
+
+    System.println(Toast_Message)
 }
 

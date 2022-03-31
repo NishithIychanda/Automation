@@ -19,29 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_Documents'))
-
-WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/Buttons/button_add bank statements'), 3)
-
-WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/Upload_Add Bank Statements'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\bankStmt.pdf')
-
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Analyse'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Common/div_Entity'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Documents/input_BankName'), 'Sanmathi Sahakari Bank')
+WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-Documents'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Input_Bank name'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_New Doc'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/span_AccountType'))
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/input_docname'), 2)
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Dropdowns/dropdown_AccountType'))
+WebUI.setText(findTestObject('Dashboard/Entity/Documents/input_docname'), 'AutomationDoc')
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/span_Document Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Save Icon'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Dropdowns/dropdown_docType'))
+WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUploads_NewDoc'), 'C:\\\\\\\\Users\\\\\\\\Nishith IN\\\\\\\\Desktop\\\\\\\\Test Documents\\\\\\\\Account.pdf')
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Save'))
+
+WebUI.delay(3)
 
