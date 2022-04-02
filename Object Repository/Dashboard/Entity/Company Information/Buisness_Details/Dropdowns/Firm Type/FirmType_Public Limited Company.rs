@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Public Limited Company</name>
+   <name>FirmType_Public Limited Company</name>
    <tag></tag>
    <elementGuidId>d826e9b1-9033-4ee6-968f-6145ce449cfd</elementGuidId>
    <selectorCollection>

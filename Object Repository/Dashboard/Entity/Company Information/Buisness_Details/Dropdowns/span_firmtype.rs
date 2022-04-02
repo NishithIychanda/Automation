@@ -6,12 +6,12 @@
    <elementGuidId>9206b0c6-7f8e-4f31-8492-03daf6f716fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body/div[1]/div[1]/anchors-section-renderer[1]/div[1]/anchors-content-decider[1]/anchors-forms[1]/anchors-form-builder[1]/div[1]/form[1]/jkf-element-builder[1]/anchors-wrapper-element[1]/anchors-select-input[1]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/mat-select[1]/div[1]/div[1]/span[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mat-select-placeholder.ng-tns-c121-12.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-select[@id='en-sec-firm-isGst-firmType']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

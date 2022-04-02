@@ -22,7 +22,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/span_firmtype'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/dropdown_Public Limited Company'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/Firm Type/FirmType_Public Limited Company'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/span_Entity Type'))
 

@@ -29,15 +29,15 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Detail
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/dropdown_OEM'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_Submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Buttons/button_submit'))
 
 WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_AddNewBankAccount'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_AccountNumber'), '0456101022908')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_AccountNumber'), '0456111022908')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_ConfirmAccountNumber'), '0456101022908')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_ConfirmAccountNumber'), '0456111022908')
 
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_IFSC code'), 'CNRB0000456')
 
@@ -51,9 +51,21 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Ac
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Account Type/AccountType_Savings'))
 
+//WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Span_isPrimary'))
+//WebUI.click(findTestObject('null'))
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Status/span_status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Status/Status_Active'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Status/Status_Inactive'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_Submit'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Icons,ToastMessages/Close Icon'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Icons,ToastMessages/Delete Icon'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_Delete'))
+
+ToastMessage = WebUI.getText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Icons,ToastMessages/Toast Message'))
+
+System.println(ToastMessage)
 

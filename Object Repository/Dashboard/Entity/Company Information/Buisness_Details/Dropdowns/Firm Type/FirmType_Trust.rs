@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_AddNewBankAccount</name>
+   <name>FirmType_Trust</name>
    <tag></tag>
-   <elementGuidId>6fdb929d-0bfc-41b4-a333-e80495c10be1</elementGuidId>
+   <elementGuidId>e8292bef-0346-49f3-bcc1-231982c3331a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Add Bank Account')]</value>
+         <value>//span[contains(text(),'Trust')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
