@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_networkType</name>
+   <name>NetworkType_Dealer</name>
    <tag></tag>
-   <elementGuidId>cf0d1848-75a9-43ac-aa43-e8f9c1758061</elementGuidId>
+   <elementGuidId>dc7b24b7-aa48-45e7-972a-f229270404b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-select[@id='en-sec-network-partner-details-networkType']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Dealer')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

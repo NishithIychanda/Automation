@@ -27,17 +27,17 @@ WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-Network'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Buttons/Button_Add New Network'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/span_network name'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Name/span_network name'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/dropdown_networkname'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Name/dropdown_networkname'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/span_networkType'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Type/Span_NetworkType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/dropdown_DistributorType'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Type/NetworkType_Distributor'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/span_Status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Status/Span_Status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Dropdowns/dropdown_Active'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Status/Status_Active'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Buttons/Button_Submit'))
 

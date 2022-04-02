@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Active</name>
+   <name>NetworkType_Buyer</name>
    <tag></tag>
-   <elementGuidId>c708a529-27ed-48bf-97a9-38e7d22084eb</elementGuidId>
+   <elementGuidId>ae1d48ad-74a9-42ad-863d-b7703388d8c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Active')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Buyer')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
