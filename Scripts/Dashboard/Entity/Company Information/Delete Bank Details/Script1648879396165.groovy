@@ -51,8 +51,6 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Ac
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Account Type/AccountType_Savings'))
 
-//WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Span_isPrimary'))
-//WebUI.click(findTestObject('null'))
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Status/span_status'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Status/Status_Inactive'))
