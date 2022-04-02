@@ -47,5 +47,5 @@ System.println(Toast_Message)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/icon_close'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Icons/icon_close'))
 

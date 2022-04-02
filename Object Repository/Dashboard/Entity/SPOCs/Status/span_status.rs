@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_status</name>
+   <name>Span_status</name>
    <tag></tag>
    <elementGuidId>97e6e1d9-5c17-4d90-9975-97cd16f25d14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/anchors-member[1]/section[1]/anchors-member-section[1]/anchors-forms[1]/anchors-form-builder[1]/div[1]/form[1]/jkf-element-builder[6]/anchors-wrapper-element[1]/anchors-select-input[1]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/mat-select[1]/div[1]/div[1]/span[1]</value>
+         <value>//mat-select[@id='en-sec-spoc-status']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

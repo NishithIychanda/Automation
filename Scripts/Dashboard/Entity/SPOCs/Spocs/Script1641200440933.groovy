@@ -21,31 +21,27 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Dashboard/Entity/SPOCs/Page_Anchors Client/div_EN-220103-001497'))
+WebUI.click(findTestObject('Dashboard/Entity/Common/div_Entity'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/Header_SPOCs'))
+WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-SPOCs'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/button_Add New SPOC'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Buttons/Button_Add New SPOC'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/input_FullName'), 'Neha')
+WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Inputs/input_FullName'), 'Neha')
 
-WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/input_Email'), 'test3@jai-kisan.com')
+WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Inputs/input_Email'), 'test3@jai-kisan.com')
 
-WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/input_MobileNumber'), '7878787891')
+WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Inputs/input_MobileNumber'), '7878787891')
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/span_department'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Departments/span_department'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/dropdown_Central Operations (COPS)'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Departments/Dep_Finance'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/span_IsPrimary'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Status/Span_status'))
 
-WebUI.click(findTestObject('Object Repository/Dashboard/Entity/SPOCs/Page_Anchors Client/span_No'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Status/Status_Active'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/span_status'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Buttons/Button_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Dashboard/Entity/SPOCs/Page_Anchors Client/span_Active'))
-
-WebUI.click(findTestObject('Object Repository/Dashboard/Entity/SPOCs/Page_Anchors Client/span_Submit'))
-
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Page_Anchors Client/icon_close'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Icons/icon_close'))
 
