@@ -67,8 +67,8 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.takeScreenshot()
 
-    System.println(Toast_Message) //VERIFY GIFF FILE FORMAT
-    //VERIFY EXCEL FILE FORMAT
+    System.println(Toast_Message //VERIFY GIFF FILE FORMAT
+        ) //VERIFY EXCEL FILE FORMAT
     //VERIFY ABOVE 5MB FILES
     //VERIFY GIFF FILE FORMAT
     //VERIFY EXCEL FILE FORMAT
