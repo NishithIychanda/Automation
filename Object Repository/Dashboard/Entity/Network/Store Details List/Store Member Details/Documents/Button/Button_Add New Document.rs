@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ToastMessage_File size Validation</name>
+   <name>Button_Add New Document</name>
    <tag></tag>
-   <elementGuidId>f2388695-8232-4620-8416-16de0f9329ac</elementGuidId>
+   <elementGuidId>368873a9-e1c6-452a-b547-5ecfde1c82b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Max File Size allowed is 5 MB')]</value>
+         <value>//span[contains(text(),'Add New Document')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
