@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Upload_KYC</name>
+   <name>span_Status</name>
    <tag></tag>
-   <elementGuidId>8c5c49ec-8e2f-423a-95b8-4bfda46c6684</elementGuidId>
+   <elementGuidId>27baa773-f46c-40fc-a4f3-e83b13545afb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;KYC Document&quot;]</value>
+         <value>//mat-select[@id='en-sec-store-details-status']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

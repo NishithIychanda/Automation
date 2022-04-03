@@ -32,15 +32,15 @@ WebUI.scrollToElement(findTestObject('Dashboard/Entity/Network/Store Details Lis
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Button_Add New Store'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Inputs/input_storeName'), 'Moogle Play')
+WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Inputs/input_storeName'), 'Mioogle Play')
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Store Type/span_StoreType'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Store Type/dropdown_StoreType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Status/span_Status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Status/span_Status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Status/dropdown_Status'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Status/Status_Inactive'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Button_Submit'))
 
@@ -93,10 +93,6 @@ if (toast_message == 'Fetched Successfully 🎂') {
 
     WebUI.setText(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Inputs/input_mobileNumber'), 
         '9898989890')
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/Span_IsPrimaryAccount'))
-
-    WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/dropdown_IsPrimaryAccount'))
 
     WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Bank Account Details/Dropdowns/span_Status'))
 
