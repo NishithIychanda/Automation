@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store De
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Buttons/Button_Submit'))
 
-toast_message = WebUI.getText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Toast message/Toast Messages'))
+toast_message = WebUI.getText(findTestObject('Dashboard/Entity/Network/Store Details List/Store Details/Toast message, Icons/Toast Messages'))
 
 if (toast_message == 'Fetched Successfully 🎂') {
     WebUI.click(findTestObject('Dashboard/Entity/Network/Store Details List/Current Address/Buttons/Button_Edit'))
