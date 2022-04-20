@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Network Details List-Seller</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b6dd8df-348e-454a-92aa-244dbd04b4ef</testCaseGuid>
+   <variable>
+      <defaultValue>'Greenizon Agritech Consultancy Private Limited'</defaultValue>
+      <description></description>
+      <id>896cb84c-b312-41ff-a7e8-f70d8a56c6bb</id>
+      <masked>false</masked>
+      <name>NetworkName</name>
+   </variable>
+</TestCaseEntity>

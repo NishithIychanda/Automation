@@ -15,7 +15,7 @@
       <guid>004f10de-e134-43f5-9919-7fd0e850ba7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Entity/Network/Network Details List</testCaseId>
+      <testCaseId>Test Cases/Dashboard/Entity/Network/Network Details/Network Details List-Distributor</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>67b59a17-aa94-429a-949a-9532481fa154</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Entity/Network/Store Details List</testCaseId>
+      <testCaseId>Test Cases/Dashboard/Entity/Network/Store Details/Store Details List</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,12 +39,12 @@
       <guid>8ecad831-634a-4d49-afc5-1c710719b52e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Entity/Network/Upload Store Documents</testCaseId>
+      <testCaseId>Test Cases/Dashboard/Entity/Network/Store Details/Upload Store Documents</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>beb4366f-2c6c-4c0a-9750-30c825e229d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Entity/Network/Store Member Information</testCaseId>
+      <testCaseId>Test Cases/Dashboard/Entity/Network/Store Details/Store Member Information</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

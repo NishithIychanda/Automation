@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Button
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Name/span_network name'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Name/dropdown_networkname'))
+WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Name/network_A B T INDUSTRIES LIMITED'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Network/Network Details List/Network Type/Span_NetworkType'))
 

@@ -6,11 +6,11 @@
    <elementGuidId>c708a529-27ed-48bf-97a9-38e7d22084eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Active')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[@class='mat-option-text'][normalize-space()='Active']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

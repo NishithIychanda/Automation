@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_networkname</name>
+   <name>network_AXIS BANK LIMITED</name>
    <tag></tag>
-   <elementGuidId>675ba019-76ec-4d47-91ef-aa1632bb4de6</elementGuidId>
+   <elementGuidId>e4559544-e50c-4a3d-9ab9-b3a0ea75c053</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),' A B T  INDUSTRIES LIMITED ')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'AXIS BANK LIMITED')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

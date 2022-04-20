@@ -67,32 +67,8 @@ if (Actual_txt == 'Private Limited Company') {
 
     WebUI.takeScreenshot()
 
-    System.println(Toast_Message //VERIFY GIFF FILE FORMAT
-        ) //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY GIFF FILE FORMAT
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY GIFF FILE FORMAT
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY GIFF FILE FORMAT
-    //VERIFY GIFF FILE FORMAT
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY GIFF FILE FORMAT
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY GIFF FILE FORMAT
-    //VERIFY EXCEL FILE FORMAT
-    //VERIFY ABOVE 5MB FILES
-    //VERIFY GIFF FILE FORMAT
+    System.println(Toast_Message ) 
+	
 } else if (Actual_txt == 'Public Limited Company') {
     WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/FileUpload Objects/FileUpload_Certificate of Incorporation'), 
         2)

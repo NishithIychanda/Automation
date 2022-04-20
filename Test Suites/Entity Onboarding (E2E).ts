@@ -123,7 +123,7 @@
       <guid>a082f554-1f78-4405-8ee9-e5d38558979c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard/Entity/Network/Network Details List</testCaseId>
+      <testCaseId>Test Cases/Dashboard/Entity/Network/Network Details/Network Details List-Distributor</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
