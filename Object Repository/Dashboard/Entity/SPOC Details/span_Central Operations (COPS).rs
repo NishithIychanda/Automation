@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-8']/span</value>
+         <value>//span[contains(text(),'HR')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

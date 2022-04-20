@@ -6,12 +6,11 @@
    <elementGuidId>df0b265a-fdf2-4fbc-bd6a-1f5281c271ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'You are not Authorized to Perform this Action.') or contains(text(),'Deleted Successfully 🎂')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'You are not Authorized to Perform this Action.') or contains(text(),'Deleted Successfully 🎂') or contains(text(),'Active Bank Account cannot be Deleted')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

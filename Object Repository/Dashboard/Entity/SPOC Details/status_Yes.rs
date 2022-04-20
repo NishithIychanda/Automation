@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;mat-option-11&quot;]/span</value>
+         <value>//span[normalize-space()='No']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
