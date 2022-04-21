@@ -6,11 +6,11 @@
    <elementGuidId>8387d0aa-9447-4dc3-861a-5927eab8f45d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='Certificate of Incorporation.xlsx']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;AutomationFilesizeCheck&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

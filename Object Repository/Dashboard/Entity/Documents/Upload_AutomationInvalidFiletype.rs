@@ -6,11 +6,11 @@
    <elementGuidId>484869b6-3ec5-4a5e-98dc-fc9d101106b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='GIF3.gif']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;AutomationDoc&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
