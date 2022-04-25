@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>search bar</name>
+   <name>Search Bar</name>
    <tag></tag>
    <elementGuidId>642f0908-8d2e-4652-a564-4bfb837c1647</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mat-input-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
