@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'This GSTIN is already Registered with us.') or contains(text(),'Fetched Successfully 🎂') or contains(text(),'This FSSAI Number is already Registered with us.') or contains(text(),'This PAN is already Registered with us.') or contains(text(),'This CIN is already Registered with us.') or contains(text(),'This Udyog Aadhaar is already Registered with us.')]</value>
+         <value>//span[contains(text(),'This GSTIN is already Registered with us.') or contains(text(),'Fetched Successfully 🎂') or contains(text(),'This FSSAI Number is already Registered with us.') or contains(text(),'This PAN is already Registered with us.') or contains(text(),'This CIN is already Registered with us.') or contains(text(),'This Udyog Aadhaar is already Registered with us.') or contains(text(),'This Udyam Registartion Number is already Register')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

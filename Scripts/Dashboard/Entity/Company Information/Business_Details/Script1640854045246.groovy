@@ -37,9 +37,16 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_UdyogAadhar'), 'DL05A0000008')
 
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Buisness PAN'), 'AACCM4684P')
+
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_FSSAI License'), '10015042002221')
+
 WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Gst number'), '08AACCM4684P1ZR')
+
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Udyam Registration Number'), 
+    'UDYAM-UP-00-1234567')
+
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Buttons/Button_Ok'))
+
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Date Picker'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_month'))
