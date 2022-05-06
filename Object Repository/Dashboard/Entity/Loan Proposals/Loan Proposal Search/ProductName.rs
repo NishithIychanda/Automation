@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Proposal ID</name>
+   <name>ProductName</name>
    <tag></tag>
-   <elementGuidId>f16b1315-5f87-4d01-8190-58e33df82c7f</elementGuidId>
+   <elementGuidId>c5ca90bd-3e1c-4351-9741-30d7176ebde8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tbody/tr[1]/td[1]</value>
+         <value>//tbody/tr[1]/td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
