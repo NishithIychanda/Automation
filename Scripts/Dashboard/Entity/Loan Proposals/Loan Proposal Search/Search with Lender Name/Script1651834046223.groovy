@@ -31,15 +31,15 @@ WebUI.click(findTestObject('Dashboard Login/button_login'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/input_SearchText'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/input_SearchText'), SeachProposalID)
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/input_SearchText'), SeachLenderName)
 
 WebUI.delay(5)
 
-FetchedProposalID = WebUI.getText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/Proposal ID'))
+FetchedLenderName = WebUI.getText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/LenderName'))
 
-System.println(FetchedProposalID)
+System.println(FetchedLenderName)
 
-if (SeachProposalID == FetchedProposalID) {
+if (SeachLenderName == FetchedLenderName) {
     System.println('Proposal fetched successfully')
 } else {
     System.println('Proposal fetching failed!')

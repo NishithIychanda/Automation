@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search with Lender Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1e2f98b-d0f5-4de1-a84c-f8ac0fb923cc</testCaseGuid>
+   <variable>
+      <defaultValue>'Adani Capital Private Limited'</defaultValue>
+      <description></description>
+      <id>e556212b-62ee-457a-90b5-8ed429caf43a</id>
+      <masked>false</masked>
+      <name>SeachLenderName</name>
+   </variable>
+</TestCaseEntity>

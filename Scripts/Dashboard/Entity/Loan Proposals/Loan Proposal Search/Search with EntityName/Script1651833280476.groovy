@@ -29,9 +29,9 @@ WebUI.setEncryptedText(findTestObject('Dashboard Login/Login_password'), 'HSbZGf
 
 WebUI.click(findTestObject('Dashboard Login/button_login'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/input_Proposal ID'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/input_SearchText'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/input_Proposal ID'), SeachEntityName)
+WebUI.setText(findTestObject('Dashboard/Entity/Loan Proposals/Loan Proposal Search/input_SearchText'), SeachEntityName)
 
 WebUI.delay(5)
 

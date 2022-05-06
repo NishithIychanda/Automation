@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Proposal ID</name>
+   <name>input_SearchText</name>
    <tag></tag>
    <elementGuidId>152bc92f-1372-4260-9227-395f500a0016</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mat-input-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
