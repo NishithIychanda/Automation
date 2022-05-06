@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search with EntityName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31cd74ba-16c5-447f-be03-0334e61fe692</testCaseGuid>
+   <variable>
+      <defaultValue>'MERIT TECHNOLOGIES INDIA LIMITED'</defaultValue>
+      <description></description>
+      <id>3559c105-6fb5-49b0-bf3b-0904b600318f</id>
+      <masked>false</masked>
+      <name>SeachEntityName</name>
+   </variable>
+</TestCaseEntity>
