@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search with Proposal Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd1b14d3-3e2d-4969-b5d1-add47db30cab</testCaseGuid>
+   <variable>
+      <defaultValue>'Invoice Finace'</defaultValue>
+      <description></description>
+      <id>0b1e2df8-e535-470e-a825-3a6dd9ea4b04</id>
+      <masked>false</masked>
+      <name>SeachProposalName</name>
+   </variable>
+</TestCaseEntity>
