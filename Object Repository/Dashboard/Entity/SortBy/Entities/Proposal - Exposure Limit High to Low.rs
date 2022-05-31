@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Proposal - Exposure Limit High to Low</name>
+   <tag></tag>
+   <elementGuidId>d212cc9b-123c-4747-bee9-a2728b01b356</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-41']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-41 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6b2253e8-5ca6-478e-9992-70fdff0137f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>0dcaec8f-9f1c-4646-9c6a-b085e3bfdcad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Exposure Limit : High to Low </value>
+      <webElementGuid>491881f4-2760-4888-900c-a88479a8ee77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-41&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>5afc9de7-df94-48dc-84db-995df04491fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-41']/span</value>
+      <webElementGuid>b473f828-fd79-4cf9-b1c5-0de4783fce99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exposure Limit : Low to High'])[2]/following::span[1]</value>
+      <webElementGuid>12b9b65c-825a-483b-9ed3-7bc13aee49be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Credit Limit : High to Low'])[1]/following::span[2]</value>
+      <webElementGuid>2aee905f-bb0b-47cb-9ec5-81eb3efb8dd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proposal Name : Ascending'])[1]/preceding::span[1]</value>
+      <webElementGuid>4a48faa5-7533-4147-84dd-64b7624f99c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proposal Name : Descending'])[1]/preceding::span[2]</value>
+      <webElementGuid>238b7089-5ee0-481c-950d-f9c645dc0b7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Exposure Limit : High to Low']/parent::*</value>
+      <webElementGuid>d89ccc25-f69f-4dba-8319-34728afddb58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/mat-option[2]/span</value>
+      <webElementGuid>7d47a135-4f7e-4072-a394-03032098c78f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Exposure Limit : High to Low ' or . = ' Exposure Limit : High to Low ')]</value>
+      <webElementGuid>51350e9a-acee-4001-9d0e-5faee52e282f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

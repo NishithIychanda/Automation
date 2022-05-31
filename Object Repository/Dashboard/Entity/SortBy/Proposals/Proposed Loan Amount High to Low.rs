@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Proposed Loan Amount High to Low</name>
+   <tag></tag>
+   <elementGuidId>474e8d2a-c9f2-4224-8bdd-11a52999e2c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-19']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-19 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>da2b1051-29e7-4f98-baee-bda5368d70e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>fcfcd287-366f-4259-8ec5-03d550e83e92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Proposed Loan Amount : High to Low </value>
+      <webElementGuid>5f21206d-5955-444b-8c26-d12dd588b3eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-19&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>e2dad8e4-dcd0-44fd-a21c-6b938de655eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-19']/span</value>
+      <webElementGuid>679c815d-2255-49d4-92ad-c4fd2620d430</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proposed Loan Amount : Low to High'])[1]/following::span[1]</value>
+      <webElementGuid>1e07eabf-7942-4102-bf07-3ac35abf910e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ROI : High to Low'])[1]/following::span[2]</value>
+      <webElementGuid>abcb6e39-149b-4c81-b874-188594ba0fed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Created By : Ascending'])[1]/preceding::span[1]</value>
+      <webElementGuid>eb359631-82ce-4c45-a37c-a506094c521c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Created By : Descending'])[1]/preceding::span[2]</value>
+      <webElementGuid>777c7dc2-0098-44e5-906e-94f52c007da8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Proposed Loan Amount : High to Low']/parent::*</value>
+      <webElementGuid>f0222b4f-3762-4e34-a38b-f42cabd3fddf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/mat-option[2]/span</value>
+      <webElementGuid>b88cf88a-3520-46cb-a508-28d2d376f239</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Proposed Loan Amount : High to Low ' or . = ' Proposed Loan Amount : High to Low ')]</value>
+      <webElementGuid>624ede87-8aa0-4bb1-a384-011ea17a3c60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

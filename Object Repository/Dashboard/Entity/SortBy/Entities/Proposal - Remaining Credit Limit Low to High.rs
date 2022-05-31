@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Proposal - Remaining Credit Limit Low to High</name>
+   <tag></tag>
+   <elementGuidId>37c714e0-db46-4428-87da-822b4c2be215</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-18']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-18 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>59f82d4c-1c81-4ca6-9a0c-d57c494acc21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>a89c2c91-c0f6-492f-b557-251cb4728fff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Remaining Credit Limit : Low to High </value>
+      <webElementGuid>f02afc75-e75d-453d-a04d-fcb4e5336c81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-18&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>7e69930c-04f0-4588-9c99-2ce2f141fbf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-18']/span</value>
+      <webElementGuid>078a4b0a-95b0-4374-a2b2-ebde7ef6865c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Created Date : Latest'])[1]/following::span[1]</value>
+      <webElementGuid>b2191651-33cb-4102-b981-fc9f474dde7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Created Date : Oldest'])[1]/following::span[2]</value>
+      <webElementGuid>f93f7984-d193-4338-b221-f148795a8695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remaining Credit Limit : High to Low'])[1]/preceding::span[1]</value>
+      <webElementGuid>bcc0e91c-c8af-4c57-ae9b-8afdcc618089</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exposure Limit : Low to High'])[1]/preceding::span[2]</value>
+      <webElementGuid>8d61207a-b450-46f0-ada6-54f6b97750f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Remaining Credit Limit : Low to High']/parent::*</value>
+      <webElementGuid>89ae6c6e-161a-4fcd-99c7-cfe177fc729a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/mat-option/span</value>
+      <webElementGuid>b5a0f371-68bd-41fc-9b67-99733cd7279a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Remaining Credit Limit : Low to High ' or . = ' Remaining Credit Limit : Low to High ')]</value>
+      <webElementGuid>726424b6-81b0-48c2-88e3-bef3a7dfe841</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

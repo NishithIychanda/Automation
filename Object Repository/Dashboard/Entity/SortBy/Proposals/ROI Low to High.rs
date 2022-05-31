@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ROI Low to High</name>
+   <tag></tag>
+   <elementGuidId>a04995c1-a430-48d6-8ae1-31cc52baca46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-16']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-16 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>56187608-2daf-4d57-9bed-753176f6d06d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>19832c8d-8dee-4d37-9cee-a3f2032a27de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> ROI : Low to High </value>
+      <webElementGuid>e3ff3458-5fc8-49e4-bb55-f049b4d0b80b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-16&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>6af65148-936f-4af1-8239-b2575c3eb2f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-16']/span</value>
+      <webElementGuid>42843d0c-1f8f-4860-8e56-c1b11b5136c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Updated : Latest'])[1]/following::span[1]</value>
+      <webElementGuid>4980cd19-127b-4e46-af39-e285f96e1451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Updated : Oldest'])[1]/following::span[2]</value>
+      <webElementGuid>606677e7-e3c1-4023-b8a4-a69f1cb96724</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ROI : High to Low'])[1]/preceding::span[1]</value>
+      <webElementGuid>6bb5f833-4998-4366-896d-36afefd19afa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proposed Loan Amount : Low to High'])[1]/preceding::span[2]</value>
+      <webElementGuid>1e0681d1-3159-4898-9e5d-3811ae7d2567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ROI : Low to High']/parent::*</value>
+      <webElementGuid>11fbd757-a16d-44ee-94c6-a0b2b2d4e95e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/mat-option/span</value>
+      <webElementGuid>8b918f0e-af8b-42b8-a794-fc6ce4634f33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' ROI : Low to High ' or . = ' ROI : Low to High ')]</value>
+      <webElementGuid>05a513fc-c038-4da8-9315-286333c8b92a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Proposals - Proposal Name Descending</name>
+   <tag></tag>
+   <elementGuidId>9ae8ddc6-1c81-4b2e-99da-4113a2bb1644</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-23']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-23 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c89e7739-9257-45c3-a32e-38aefe894024</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>af668bfd-cdc2-4f0b-935e-78dcb233dacf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Proposal Name : Descending </value>
+      <webElementGuid>e3dbb9bc-8522-4041-b094-742b8ea2e19b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-23&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>104647c8-1e9a-409c-8cbf-41499a685ff2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-23']/span</value>
+      <webElementGuid>db0ff01e-0d78-4db8-b88a-212415111960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proposal Name : Ascending'])[1]/following::span[1]</value>
+      <webElementGuid>9d2329ee-c1ce-48db-a2b8-7ecc8db83a88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exposure Limit : High to Low'])[1]/following::span[2]</value>
+      <webElementGuid>66daaa0a-c26c-49ff-91ad-00ba9ced84de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto-verified'])[1]/preceding::span[1]</value>
+      <webElementGuid>688112ad-c888-44f6-bae6-a83df3245a28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Active'])[1]/preceding::span[1]</value>
+      <webElementGuid>246579f8-e452-4fba-ad54-90a209f289fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Proposal Name : Descending']/parent::*</value>
+      <webElementGuid>a451e547-acef-4926-9193-427609d48711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/mat-option[2]/span</value>
+      <webElementGuid>b1e762f6-8c6d-442e-9723-06c792225de0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Proposal Name : Descending ' or . = ' Proposal Name : Descending ')]</value>
+      <webElementGuid>937035d9-3787-4af5-b358-bb2a4c5eca8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
