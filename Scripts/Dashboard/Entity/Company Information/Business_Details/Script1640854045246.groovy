@@ -20,48 +20,58 @@ WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/span_firmtype'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/span_firmtype'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/dropdown_Public Limited Company'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/Firm Type/FirmType_Public Limited Company'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/span_Entity Type'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/span_Entity Type'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/dropdown_OEM'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/dropdown_OEM'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/button_submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Buttons/button_submit'))
 
 WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Gst number'), '33AABCM9806E1ZO')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_UdyogAadhar'), 'DL05A0000008')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Button_Ok'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Buisness PAN'), 'AACCM4684P')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Date Picker'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_FSSAI License'), '10015042002221')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_month'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Gst number'), '08AACCM4684P1ZR')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_date'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Udyam Registration Number'), 
+    'UDYAM-UP-00-1234567')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_email'), 'test1@jai-kisan.com')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Buttons/Button_Ok'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_BrandName'), 'Test Automation')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Date Picker'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_mobileNumber'), '9878787878')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_month'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/span_ComapnyAct'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_date'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Company_act_2013'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_email'), 'test1@jai-kisan.com')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/input_Website'), 'https://www.knowyourgst.com/')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_BrandName'), 'Test Automation')
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Description'), 'test bac abac abac abaca fdyfdeygeyrgr')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_mobileNumber'), '9878787878')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/button_submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/span_ComapnyAct'))
 
-ToastMessage = WebUI.getText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Toast Message'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/Company_act_2013'))
 
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/input_Website'), 'https://www.knowyourgst.com/')
+
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Inputs/Description'), 'test bac abac abac abaca fdyfdeygeyrgr')
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Buttons/button_submit'))
+
+ToastMessage = WebUI.getText(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Toast Messages/Toast Message'))
+
+//DUPLICATE BUISNESS PAN/GST /FSSAI /UDYOG AADAR / CIN
 if (ToastMessage == 'Fetched Successfully') {
     println(('****************' + ToastMessage) + '**********************')
 } else {

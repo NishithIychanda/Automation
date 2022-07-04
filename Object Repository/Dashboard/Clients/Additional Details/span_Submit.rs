@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Submit</name>
+   <tag></tag>
+   <elementGuidId>4677a516-5d51-4850-a1b3-482c6fc7e35d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[3]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.submitJkFormBtn.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4ea1412e-f74f-4704-bd57-b2705967e0e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-button-wrapper</value>
+      <webElementGuid>1b3114b7-ac23-49d5-978c-146ae292b063</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Submit </value>
+      <webElementGuid>dab69ff5-b623-412f-b4a3-f6b523ebaf8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c45-0 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/anchors-section-renderer[1]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;panell&quot;]/div[1]/anchors-content-decider[1]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/div[@class=&quot;jkf__btn-wrapper ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator submitJkFormBtn mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
+      <webElementGuid>d7d6aefa-cd8a-44ad-9124-57544ccc7fbe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[3]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/div/button/span</value>
+      <webElementGuid>d808cddc-2c84-4d3f-a494-260bf4d43bd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual Income'])[1]/following::span[1]</value>
+      <webElementGuid>9ec6eb7c-1f57-48d7-8ab9-f2e96b152a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Spouse', &quot;'&quot;, 's Name')])[1]/following::span[2]</value>
+      <webElementGuid>575cd5f8-da2c-42e1-bfc7-8e39038f4401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permanent Address'])[1]/preceding::span[3]</value>
+      <webElementGuid>dfb825d0-8bbc-47d4-8c7d-586a929e4b00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pincode'])[1]/preceding::span[3]</value>
+      <webElementGuid>d2603abd-4174-4af0-b5f4-82dfce734b90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
+      <webElementGuid>5018b488-28cc-441a-8013-cc187397ec77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/div/button/span</value>
+      <webElementGuid>33f944af-387a-4392-a2e8-0c1ba6584ceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Submit ' or . = ' Submit ')]</value>
+      <webElementGuid>c560f8ad-c5a4-4e65-8ec0-ed4cd29ca8a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

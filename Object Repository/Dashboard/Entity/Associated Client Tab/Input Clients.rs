@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Clients</name>
+   <tag></tag>
+   <elementGuidId>47fd97b0-3924-470d-a3dc-0a00fe89086e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.mat-select-search-input.mat-input-element.ng-untouched.ng-valid.ng-dirty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>95388c99-efe3-4ca8-9376-8d3ba71c0536</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>677bda39-5df9-4acf-a72e-884e8085e46b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-search-input mat-input-element ng-untouched ng-valid ng-dirty</value>
+      <webElementGuid>df22450f-5c95-49ab-bb6b-f9c12376c172</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>e8318561-c36d-4b99-9710-e3e759467309</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ex: Jatin Gala</value>
+      <webElementGuid>067d807b-3eb3-4853-bd4a-da6e7202c351</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>dropdown search</value>
+      <webElementGuid>5c8da893-31bd-47c2-bf8d-f73180c1c2e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-8&quot;)/span[@class=&quot;mat-option-text&quot;]/ngx-mat-select-search[@class=&quot;mat-select-search-inside-mat-option ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;mat-select-search-inner mat-typography mat-datepicker-content mat-tab-header&quot;]/input[@class=&quot;mat-select-search-input mat-input-element ng-untouched ng-valid ng-dirty&quot;]</value>
+      <webElementGuid>e89a8e7a-876a-4113-82ab-eeb04bdaeabe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>327e2e97-678f-4c5d-9fc4-28d2509e09b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-8']/span/ngx-mat-select-search/div/input</value>
+      <webElementGuid>b7597a75-099a-4ec1-8114-54bbb3024ded</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ngx-mat-select-search/div/input</value>
+      <webElementGuid>b917487d-0758-482c-8ec0-4083a24f0c0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Ex: Jatin Gala']</value>
+      <webElementGuid>dd79b63f-8be9-4035-9c18-1e50450291a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

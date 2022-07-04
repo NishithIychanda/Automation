@@ -6,12 +6,12 @@
    <elementGuidId>185bdf40-535e-43d7-87c6-a051219a3279</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'JAN')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.mat-calendar-body-cell-content.mat-focus-indicator</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'FEB')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

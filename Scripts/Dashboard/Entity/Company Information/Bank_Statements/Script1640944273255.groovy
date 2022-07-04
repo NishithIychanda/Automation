@@ -36,3 +36,14 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Ba
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/upload_bankstatement'), 
     'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\bankStmt.pdf')
 
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Close Icon'))
+
+//VERIFYING DELETE FUNCTION
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bank_Statements/Delete Icon'))
+
+WebUI.delay(4)
+
+// to verify the toast verification to be added
+	
+	
+

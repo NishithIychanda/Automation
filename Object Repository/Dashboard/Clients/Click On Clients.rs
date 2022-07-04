@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Click On Clients</name>
+   <tag></tag>
+   <elementGuidId>8a643c89-f845-4df5-8fbc-1f8c0325e066</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='cdk-drop-list-0']/tbody/tr/td/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ng-tns-c216-0.ng-star-inserted > div.ng-tns-c216-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b3cba4c5-5b68-46e7-855f-3390919796a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c216-0</value>
+      <webElementGuid>8f8da537-bed2-486f-b558-8aee5efb0c3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> EN-CLT-220520-000003 </value>
+      <webElementGuid>ace2aa24-821d-47f5-ae9b-25dd58878493</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-drop-list-0&quot;)/tbody[1]/tr[@class=&quot;cdk-row example-element-row ng-tns-c216-0 ng-star-inserted&quot;]/td[@class=&quot;cdk-cell cdk-column-clientId ng-tns-c216-0 text-left ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c216-0&quot;]/div[@class=&quot;ng-tns-c216-0 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c216-0&quot;]</value>
+      <webElementGuid>b6e4cee3-1c5f-4ee3-a35a-53b1a7e313e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='cdk-drop-list-0']/tbody/tr/td/div/div/div</value>
+      <webElementGuid>300d6918-e5be-4d7e-ae88-6c808df093fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date Created'])[1]/following::div[3]</value>
+      <webElementGuid>b3663f80-172f-40e5-bf22-19fb65da3494</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CRIF'])[1]/following::div[5]</value>
+      <webElementGuid>4f13e43b-5204-4fd6-ab06-461860b5adbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pull Criff'])[1]/preceding::div[1]</value>
+      <webElementGuid>20650d7c-c5c7-48cb-84df-0289c53f8cac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='******8997'])[1]/preceding::div[4]</value>
+      <webElementGuid>30f6f706-51fc-498e-bba9-3fede0577abc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='EN-CLT-220520-000003']/parent::*</value>
+      <webElementGuid>3b3421bb-4f03-4701-a67e-6e328037cc15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div/div</value>
+      <webElementGuid>602b87a1-fefe-499f-b30e-e506eaeb18e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' EN-CLT-220520-000003 ' or . = ' EN-CLT-220520-000003 ')]</value>
+      <webElementGuid>ddb85188-4682-465b-ba48-e087140243cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

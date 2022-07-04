@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Maritial Status</name>
+   <tag></tag>
+   <elementGuidId>46ba05b9-0f32-43b6-a867-b4b636507f78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[3]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/form/jkf-element-builder[7]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c134-23</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5d6a6169-acde-49ad-8990-4ab51a517e84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c134-23</value>
+      <webElementGuid>51d5132a-dcd4-439c-98c4-fbf9b704888a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(required) Marital Status</value>
+      <webElementGuid>71e6d4f9-70a4-409b-8635-4ce8e6360ff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c45-0 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/anchors-section-renderer[1]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;panell&quot;]/div[1]/anchors-content-decider[1]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/jkf-element-builder[@class=&quot;ng-star-inserted&quot;]/anchors-wrapper-element[@class=&quot;ng-star-inserted&quot;]/anchors-select-input[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;grid-4 ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c134-23 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c134-23&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c134-23&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c134-23&quot;]</value>
+      <webElementGuid>18d42366-aa5e-459f-847b-a66cfb977573</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[3]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/form/jkf-element-builder[7]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>b261bf0a-a814-4aac-8d70-4e2640874d72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Mother', &quot;'&quot;, 's Name')])[1]/following::div[15]</value>
+      <webElementGuid>5a84be57-858a-4a51-9699-e3ee1a03f1f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Father', &quot;'&quot;, 's Name')])[1]/following::div[30]</value>
+      <webElementGuid>9238d360-2d71-48ac-92d7-19e17fde18e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//jkf-element-builder[7]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>a0928205-37a9-45b8-94a7-704a021343d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '(required) Marital Status' or . = '(required) Marital Status')]</value>
+      <webElementGuid>256ef4e5-19bb-4e65-9ca6-21adec503b2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

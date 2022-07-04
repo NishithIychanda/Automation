@@ -6,12 +6,12 @@
    <elementGuidId>c6cf676c-95cf-4e43-b493-d32136529f89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'No')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[normalize-space()='No']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

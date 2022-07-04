@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search with Product ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb7ffea4-d7c4-4cbc-8e89-f769dc83ce5a</testCaseGuid>
+   <variable>
+      <defaultValue>'EN-PR-220420-002101'</defaultValue>
+      <description></description>
+      <id>a0bc0c29-b5b2-46a2-bc38-2319c3c9ab4e</id>
+      <masked>false</masked>
+      <name>SeachProposalID</name>
+   </variable>
+</TestCaseEntity>

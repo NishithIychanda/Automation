@@ -17,31 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Button_AddNewBankAccount'))
+WebUI.callTestCase(findTestCase('Dashboard/Entity/Entity Creation/Spoc_Creation'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_AccountNumber'), '0456101022909')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/button_Edit'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_ConfirmAccountNumber'), '0456101022909')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/span_firmtype'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_IFSC code'), 'CNRB0000456')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/Firm Type/FirmType_Public Limited Company'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_MobileNumber'), '9481854890')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/span_Entity Type'))
 
-//WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_BankAddress'), 'Virajpet Ponnament')
-//WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/input_MICRcode'), '571015526')
-WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Input_AccountHolderName'), 'Nishith IN')
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Buisness_Details/Dropdowns/dropdown_OEM'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/span_AccountType'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_Submit'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/dropdown_Accountype'))
+WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Span_isPrimary'))
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_AddNewBankAccount'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/dropdown_primary_No'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_AccountNumber'), '0456101022908')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/span_status'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_ConfirmAccountNumber'), '0456101022908')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/dropdown_Status'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_IFSC code'), 'CNRB0000456')
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/button_Submit'))
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_MobileNumber'), '9481854890')
+
+//WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_BankAddress'), 'Virajpet Ponnament')
+//WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/input_MICRcode'), '571015526')
+WebUI.setText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Inputs/Input_AccountHolderName'), 'Nishith IN')
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Account Type/span_AccountType'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Account Type/AccountType_Savings'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Status/span_status'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Status/Status_Active'))
+
+WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_Submit'))
 

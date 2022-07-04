@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Submit Button For Permanent Details</name>
+   <tag></tag>
+   <elementGuidId>5829b426-ce33-449f-8809-db527ac18aa1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.submitJkFormBtn.mat-raised-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/div/anchors-section-renderer/div/div/div[4]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/div/button/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4eba03cb-0581-4a14-926b-c78d410ae7b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-button-wrapper</value>
+      <webElementGuid>a420a1ac-36a0-4203-bc2f-613dd4949698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Submit </value>
+      <webElementGuid>a1d2a790-d947-401f-a689-db8e0749f487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/anchors-new-clients-application[@class=&quot;ng-star-inserted&quot;]/section[1]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;alignWidth&quot;]/anchors-forms[1]/anchors-form-builder[1]/div[@id=&quot;alignClientsField&quot;]/div[@id=&quot;alignClientsField&quot;]/button[@class=&quot;mat-focus-indicator submitJkFormBtn mat-raised-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
+      <webElementGuid>8b12905b-9ea1-43aa-a4bc-63b7927ae645</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='alignClientsField']/button/span</value>
+      <webElementGuid>faea5e8e-bf64-4145-b3e4-57849e29908f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::span[1]</value>
+      <webElementGuid>90a9896a-3825-45cc-b602-9f85c31fa8b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Number'])[2]/following::span[2]</value>
+      <webElementGuid>62d6fad4-9d8a-4f7c-ac27-426a7cc12296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
+      <webElementGuid>a320f939-fc9a-475b-a28b-b3d79950b8c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//anchors-form-builder/div/div/button/span</value>
+      <webElementGuid>fa7f83f3-7799-41d6-8341-07a9219a1a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Submit ' or . = ' Submit ')]</value>
+      <webElementGuid>0ec70ce4-e84a-471d-ad02-f764ad38125e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

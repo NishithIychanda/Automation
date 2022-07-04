@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Gender</name>
+   <tag></tag>
+   <elementGuidId>51dbf0c0-b0d2-4b47-99d6-7d7fb40ef567</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[3]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/form/jkf-element-builder[2]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c134-17</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>36aa8678-058e-45a2-9871-796c23481171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c134-17</value>
+      <webElementGuid>5a9a2007-d86d-4e23-bc58-785cd559ffc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(required) Gender</value>
+      <webElementGuid>9a1ef83b-2d67-4341-8d06-e1fbb9e625e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c45-0 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/anchors-section-renderer[1]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;panell&quot;]/div[1]/anchors-content-decider[1]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/jkf-element-builder[@class=&quot;ng-star-inserted&quot;]/anchors-wrapper-element[@class=&quot;ng-star-inserted&quot;]/anchors-select-input[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;grid-4 ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c134-17 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c134-17&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c134-17&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c134-17&quot;]</value>
+      <webElementGuid>77b7414c-d812-4b19-92af-542c38afa0f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[3]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div/form/jkf-element-builder[2]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>3bc30abe-e3e3-4c4e-a1a9-cd7a5d31c8be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::div[16]</value>
+      <webElementGuid>0b4ec9d8-ace7-4315-a843-e0bb5828891e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(required)'])[1]/following::div[16]</value>
+      <webElementGuid>353da3fa-781f-4364-9b5c-e2ecbaa8e452</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>f2944aec-fd4a-438b-b0e0-0790ca5875fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '(required) Gender' or . = '(required) Gender')]</value>
+      <webElementGuid>9ff6db0d-b199-43ef-9be8-6b98ad960d60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_MERIT TECHNOLOGIES INDIA LIMITED'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Documents/Page_Anchors Client/div_Documents'))
 
-WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/button_add bank statements'), 3)
+WebUI.scrollToElement(findTestObject('Dashboard/Entity/Documents/Buttons/button_add bank statements'), 3)
 
 WebUI.uploadFile(findTestObject('Dashboard/Entity/Documents/Upload_Add Bank Statements'), 'C:\\\\Users\\\\Nishith IN\\\\Desktop\\\\Test Documents\\\\bankStmt.pdf')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Analyse'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Analyse'))
 
 WebUI.setText(findTestObject('Dashboard/Entity/Documents/input_BankName'), 'Sanmathi Sahakari Bank')
 
@@ -37,11 +37,11 @@ WebUI.click(findTestObject('Dashboard/Entity/Documents/Input_Bank name'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Documents/span_AccountType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/dropdown_AccountType'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Dropdowns/dropdown_AccountType'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Documents/span_Document Type'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/dropdown_docType'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Dropdowns/dropdown_docType'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Documents/Button_Submit'))
+WebUI.click(findTestObject('Dashboard/Entity/Documents/Buttons/Button_Submit'))
 

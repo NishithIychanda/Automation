@@ -1,4 +1,3 @@
-import org.openqa.selenium.By as By
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -22,38 +21,27 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/div_EN-220103-001497'))
+WebUI.click(findTestObject('Dashboard/Entity/Common/div_Entity'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Header_SPOCs'))
+WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-SPOCs'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/button_Add New SPOC'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Buttons/Button_Add New SPOC'))
 
-WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/input_FullName'), 'Neha')
+WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Inputs/input_FullName'), 'Neha')
 
-WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/input_Email'), 'test2@jai-kisan.com')
+WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Inputs/input_Email'), 'test3@jai-kisan.com')
 
-WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/input_MobileNumber'), '7878787890')
+WebUI.setText(findTestObject('Dashboard/Entity/SPOCs/Inputs/input_MobileNumber'), '7878787891')
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/span_department'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Departments/span_department'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/dropdown_Central Operations (COPS)'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Departments/Dep_Finance'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/span_IsPrimary'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Status/Span_status'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/span_No'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Status/Status_Active'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/span_status'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Buttons/Button_Submit'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/span_Active'))
+WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Icons/icon_close'))
 
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Button_Submit'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Button Clone'))
-
-WebUI.verifyElementVisible(findTestObject('Dashboard/Entity/SPOCs/Toast Message Clone'), FailureHandling.STOP_ON_FAILURE)
-
-//count = WebUI.getText(findTestObject('Dashboard/Entity/SPOCs/Row count'), FailureHandling.STOP_ON_FAILURE)
-//String[] parts = count.split(' ')
-//println(parts)

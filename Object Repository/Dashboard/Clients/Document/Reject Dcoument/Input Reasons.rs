@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Reasons</name>
+   <tag></tag>
+   <elementGuidId>19bea7a4-d45f-42a7-906a-4bd68a0016fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-select-value-7&quot;]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c134-24</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>68be9f00-2085-4e0a-ae13-231b43b4b6eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c134-24</value>
+      <webElementGuid>98e17f0a-ed05-41f7-a90c-629915e4b1f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Reasons</value>
+      <webElementGuid>4a6a383d-95d6-4858-8677-74e2b1f78cea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-6&quot;)/anchors-document-rejection[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;pt-15&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c134-24 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c134-24&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c134-24&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c134-24&quot;]</value>
+      <webElementGuid>72276f1d-be4a-4fe1-95a7-4296e2037a86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-6']/anchors-document-rejection/div/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>2d43d37f-d4be-40c1-8f76-06b75e42f171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document - Document1'])[1]/following::div[11]</value>
+      <webElementGuid>227bd7fc-0456-4f7b-a360-16a785f4a4f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Rejection Reasons'])[1]/following::div[12]</value>
+      <webElementGuid>9f67c7e8-f28d-4b28-8572-c618c4296a10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::div[8]</value>
+      <webElementGuid>837d85c3-97ac-44ae-8c4d-cca5e91b72d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div/div[3]</value>
+      <webElementGuid>88852c95-cb17-4268-91ec-926be7518372</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Reasons' or . = ' Reasons')]</value>
+      <webElementGuid>d4a8423f-c101-4822-aa12-ac0e3079fc78</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Click On Clients</name>
+   <tag></tag>
+   <elementGuidId>b626b551-00cc-40f0-b430-7583ad9fc3bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.cdk-cell.cdk-column-client.ng-tns-c240-18.text-left.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cdk-drop-list-1&quot;]/tbody/tr[2]/td[11]/div/div/anchors-table-button/div/div/button/span[1]/mat-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>69c7f82b-42fc-473e-8cb0-9a4ed7b8d173</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>471e6c26-3f4c-4992-a21d-46836b63e6b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cdk-cell cdk-column-client ng-tns-c240-18 text-left ng-star-inserted</value>
+      <webElementGuid>ede0f92f-6ff0-4fa2-ab73-d2428940b3b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NEETHAN SHETTY</value>
+      <webElementGuid>dd0694fd-23a4-4f9e-8188-c7ff46efcc7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-drop-list-1&quot;)/tbody[1]/tr[@class=&quot;cdk-row example-element-row ng-tns-c240-18 ng-star-inserted&quot;]/td[@class=&quot;cdk-cell cdk-column-client ng-tns-c240-18 text-left ng-star-inserted&quot;]</value>
+      <webElementGuid>b7e45bfc-f2dd-4833-aa19-cab0c5d2a466</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='cdk-drop-list-1']/tbody/tr/td</value>
+      <webElementGuid>da09af55-2caa-49f6-b9e0-3965003e26f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Designation'])[1]/following::td[1]</value>
+      <webElementGuid>4699341a-57c4-4513-b63b-70ca32ace3cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Department'])[1]/following::td[1]</value>
+      <webElementGuid>216f88af-fe67-4fab-a7da-bec5bbee9be7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::td[1]</value>
+      <webElementGuid>1494d4d6-5993-4117-99a9-768ca9d4fb0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>00749faa-2df7-45c2-b1fa-5d19f7e279f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'NEETHAN SHETTY' or . = 'NEETHAN SHETTY')]</value>
+      <webElementGuid>cf82c853-1a78-47bf-9df3-8fedcd8d3c69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
