@@ -39,7 +39,7 @@ System.println(Toastmsg)
 
 WebUI.click(findTestObject('Dashboard/Entity/Documents/delete icon'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_Delete'))
+WebUI.click(findTestObject('Dashboard/Clients/Document/Button/Button_Delete'))
 
 Toastmessag = WebUI.getText(findTestObject('Dashboard/Entity/Documents/delete toast message'))
 

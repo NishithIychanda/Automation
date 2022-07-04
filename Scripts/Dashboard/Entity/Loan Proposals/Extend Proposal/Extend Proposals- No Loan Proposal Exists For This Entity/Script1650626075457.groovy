@@ -19,6 +19,10 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Dashboard/Entity/Common/Search Bar'), 'Automation for extend proposals')
+
+WebUI.delay(4)
+
 WebUI.click(findTestObject('Dashboard/Entity/Common/div_Entity'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-LoanProposal'))
@@ -27,7 +31,7 @@ WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Extend Proposal/Butt
 
 WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Extend Proposal/Buttons/Input Select Buyer Supplier'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Extend Proposal/Dropdowns/Dropdown Buyer or Supplier'))
+WebUI.click(findTestObject('Dashboard/Entity/Loan Proposals/Extend Proposal/Buttons/Input Parent Entity'))
 
 errormessage = WebUI.getText(findTestObject('Dashboard/Entity/Loan Proposals/Toast Messages/Extend Proposal -Error message'))
 

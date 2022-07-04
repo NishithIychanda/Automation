@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;cdk-drop-list-4&quot;]/tbody/tr[2]/td[6]/div/div/anchors-table-button/div/div/button</value>
+         <value>//*[@id=&quot;cdk-drop-list-3&quot;]/tbody/tr[1]/td[6]/div/div/anchors-table-button/div/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Client By Using Client Id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f85867c-d4f8-4353-ab39-64a7083987fd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1282d072-c185-4b07-818f-0975562dcd29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'EN-CLT-220624-007097'</defaultValue>
+      <description></description>
+      <id>1282d072-c185-4b07-818f-0975562dcd29</id>
+      <masked>false</masked>
+      <name>Client_id</name>
+   </variable>
+</TestCaseEntity>

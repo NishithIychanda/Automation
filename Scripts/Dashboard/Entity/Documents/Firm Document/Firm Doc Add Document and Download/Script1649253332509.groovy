@@ -39,8 +39,3 @@ System.println(toastmsg)
 
 WebUI.click(findTestObject('Dashboard/Entity/Documents/icon_download'))
 
-//if (Document_After_Download == 'AutomationDoc') {
-//	System.println('Download successfull')
-//} else {
-	//System.println('Download failed')
-//}

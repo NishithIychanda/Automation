@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Client By Non Existing Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f21fdcff-ab22-45a3-bf6b-76e03d62060e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Reject Icon</name>
+   <tag></tag>
+   <elementGuidId>309e7d7c-1c0e-4f2a-b3bc-82a19ad8b672</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[6]/div/div/anchors-content-decider/anchors-documents/section/div[2]/anchors-document[7]/div/anchors-document-input/div/div/div[3]/span[3]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f49ae164-29c4-458f-88ba-7d4fd23f9d2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>material-icons-outlined</value>
+      <webElementGuid>e8395ea0-33c0-4973-9c54-788d3d7e99d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cancel</value>
+      <webElementGuid>a7f3846f-7fb4-462f-bb9c-a9fc385fe60d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c45-0 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/anchors-section-renderer[1]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;panell&quot;]/div[1]/anchors-content-decider[1]/anchors-documents[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;mt-20&quot;]/div[@class=&quot;documents&quot;]/anchors-document[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;document&quot;]/anchors-document-input[1]/div[@class=&quot;upload-btn-wrapper&quot;]/div[@class=&quot;upload-btn uploaded onlyDownload&quot;]/div[@class=&quot;btn&quot;]/span[@class=&quot;mat-tooltip-trigger ng-star-inserted&quot;]/i[@class=&quot;material-icons-outlined&quot;]</value>
+      <webElementGuid>ff388c0c-38eb-4007-85a0-3efbe7ebb5a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[6]/div/div/anchors-content-decider/anchors-documents/section/div[2]/anchors-document[7]/div/anchors-document-input/div/div/div[3]/span[3]/i</value>
+      <webElementGuid>c14896df-83e6-496a-bbef-d76251084f30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='check_circle'])[4]/following::i[1]</value>
+      <webElementGuid>48fbcda7-0b04-4549-8a8d-0eb8af39304f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='delete'])[1]/following::i[2]</value>
+      <webElementGuid>d8fdfc6a-42a9-48dc-907c-f5f406c7df8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Details'])[1]/preceding::i[1]</value>
+      <webElementGuid>b3673022-242e-4b05-acc2-66a68b359d50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/i</value>
+      <webElementGuid>b197bdbe-f1ff-4d48-a15d-a2ebf232701e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = 'cancel' or . = 'cancel')]</value>
+      <webElementGuid>d44d91a5-d66c-44f3-a836-2e2371dbea3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>1c1aee9e-6033-45ad-8d68-dd59568b62d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'SURYODOY ENTERPRISE')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'VINAY KIRAN ENTERPRISES')]</value>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Current Address Type</name>
+   <tag></tag>
+   <elementGuidId>8dd4b13f-f990-4c3d-a9a0-00819c81ef99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[5]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div[2]/form/jkf-element-builder[9]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c134-34</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>25cfe6c2-2364-41b1-b02e-01f5be979be4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c134-34</value>
+      <webElementGuid>63f7c47f-c364-4e2c-aaed-3ade0e43a7b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(required) Address type</value>
+      <webElementGuid>f1a560fe-56e5-41e6-943e-95db2132ae1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c45-10 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/anchors-section-renderer[1]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;panell&quot;]/div[1]/anchors-content-decider[1]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/jkf-element-builder[@class=&quot;ng-star-inserted&quot;]/anchors-wrapper-element[@class=&quot;ng-star-inserted&quot;]/anchors-select-input[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;grid-4 ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c134-34 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c134-34&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c134-34&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c134-34&quot;]</value>
+      <webElementGuid>ae045bf3-2283-4b85-8793-1712ba1408f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/anchors-section-renderer/div/div/div[5]/div/div/anchors-content-decider/anchors-forms/anchors-form-builder/div[2]/form/jkf-element-builder[9]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>bc45c61f-b07f-4400-a1b9-befb8f68187f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Street Address 2'])[2]/following::div[15]</value>
+      <webElementGuid>5559cb7c-65a9-4b9a-82fd-fd0b9ffa474e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(required)'])[8]/following::div[15]</value>
+      <webElementGuid>fbbf65ee-3df9-4a4c-945f-367ebf38f725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>22e49889-1250-433e-b674-9c7fe75da970</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '(required) Address type' or . = '(required) Address type')]</value>
+      <webElementGuid>ec009b3d-4ad3-4082-a743-9775e06ffbc4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

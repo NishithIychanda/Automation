@@ -6,12 +6,12 @@
    <elementGuidId>d8b8663e-ad7c-4670-8055-01c9ee490603</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-tooltip-trigger.mat-raised-button.mat-button-base.text-left.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cdk-drop-list-1&quot;]/tbody/tr[3]/td[5]/div/div/anchors-table-button/div/div/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody/tr[3]/td[5]/div[1]/div[1]/anchors-table-button[1]/div[1]/div[1]/button[1]</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-tooltip-trigger.mat-raised-button.mat-button-base.text-left.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

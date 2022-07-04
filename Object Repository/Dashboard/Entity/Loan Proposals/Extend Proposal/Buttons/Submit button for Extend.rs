@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/anchors-dynamicpopup[1]/div[2]/div[2]/button[2]</value>
+         <value>//*[@id=&quot;mat-dialog-5&quot;]/anchors-dynamicpopup/div[2]/div[2]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

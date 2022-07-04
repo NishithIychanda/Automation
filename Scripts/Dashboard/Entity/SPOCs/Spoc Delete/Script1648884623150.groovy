@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Buttons/Button_Submit'))
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Icons/icon_close'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Icons,ToastMessages/Delete Icon'))
+WebUI.click(findTestObject('Dashboard/Clients/Document/Button/Delete Icon'))
 
 WebUI.click(findTestObject('Dashboard/Entity/SPOCs/Buttons/Button_Delete'))
 

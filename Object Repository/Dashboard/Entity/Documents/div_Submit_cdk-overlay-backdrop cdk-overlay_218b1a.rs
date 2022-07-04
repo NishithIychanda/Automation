@@ -6,12 +6,12 @@
    <elementGuidId>61c9155c-7e11-4fbc-8b5e-c6b9827b73cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.cdk-overlay-backdrop.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing</value>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div[3]</value>
+         <key>CSS</key>
+         <value>div.cdk-overlay-backdrop.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

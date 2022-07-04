@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Designation</name>
+   <tag></tag>
+   <elementGuidId>660f2ec3-c951-42fe-9e43-1e8150f270ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-dialog-5&quot;]/anchors-member/section/anchors-member-section/anchors-forms/anchors-form-builder/div/form/jkf-element-builder[8]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div[1]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c134-25</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>82b9633b-f0c9-4299-9137-d71e8ef357b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c134-25</value>
+      <webElementGuid>d5a4f3ec-b3dc-4a3d-a642-86d623b42511</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Designation</value>
+      <webElementGuid>f8137bbe-9c3c-47a7-9cd4-7fc9f9115622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-5&quot;)/anchors-member[@class=&quot;ng-star-inserted&quot;]/section[1]/anchors-member-section[@class=&quot;ng-star-inserted&quot;]/anchors-forms[@class=&quot;ng-star-inserted&quot;]/anchors-form-builder[1]/div[@class=&quot;jkf-container ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/jkf-element-builder[@class=&quot;ng-star-inserted&quot;]/anchors-wrapper-element[@class=&quot;ng-star-inserted&quot;]/anchors-select-input[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;grid-4 ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c134-25 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c134-25&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c134-25&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c134-25&quot;]</value>
+      <webElementGuid>43aacc69-9bd2-426c-b911-17fc86d6bb22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-5']/anchors-member/section/anchors-member-section/anchors-forms/anchors-form-builder/div/form/jkf-element-builder[8]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>764e4d12-0505-474a-adcf-e9e02f4425f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='% Shareholding'])[1]/preceding::div[16]</value>
+      <webElementGuid>7075d167-ef73-4697-b4c4-016437527b06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//jkf-element-builder[8]/anchors-wrapper-element/anchors-select-input/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>1e955996-7c14-45d1-ae63-f5e7ee8c5f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Designation' or . = ' Designation')]</value>
+      <webElementGuid>db95de7e-e130-47af-b094-3282133ac85d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

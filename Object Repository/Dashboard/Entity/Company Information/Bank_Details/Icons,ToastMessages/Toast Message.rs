@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'You are not Authorized to Perform this Action.') or contains(text(),'Deleted Successfully 🎂') or contains(text(),'Active Bank Account cannot be Deleted')]</value>
+         <value>//span[contains(text(),'Active Bank Account cannot be Deleted') or contains(text(),'Deleted Successfully 🎂') or contains(text(),'Active Bank Account cannot be Deleted')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

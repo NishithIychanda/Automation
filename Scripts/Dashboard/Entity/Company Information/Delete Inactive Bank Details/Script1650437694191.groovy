@@ -59,9 +59,9 @@ WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Bu
 
 WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Icons,ToastMessages/Close Icon'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Icons,ToastMessages/Delete Icon'))
+WebUI.click(findTestObject('Dashboard/Clients/Document/Button/Delete Icon'))
 
-WebUI.click(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Buttons/Button_Delete'))
+WebUI.click(findTestObject('Dashboard/Clients/Document/Button/Button_Delete'))
 
 ToastMessage = WebUI.getText(findTestObject('Dashboard/Entity/Company Information/Bank_Details/Icons,ToastMessages/Toast Message'))
 

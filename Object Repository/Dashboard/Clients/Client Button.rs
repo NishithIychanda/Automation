@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Client Button</name>
+   <tag></tag>
+   <elementGuidId>a90d68b0-5a79-40e9-a0a2-153289e9e02a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.AlignLogo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>260a93db-cad6-4ab0-86b0-08b362ee0b9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>./../../assets/clients.svg</value>
+      <webElementGuid>406f5873-c29a-476e-889e-3875fa43dc41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>AlignLogo</value>
+      <webElementGuid>da7dfe4a-f501-4b72-89c4-8b32560f329e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-app-background&quot;]/anchors-root[1]/anchors-anchors-container[@class=&quot;ng-star-inserted&quot;]/anchors-applications[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;application-container&quot;]/anchors-side-nav[1]/section[@class=&quot;navigation&quot;]/nav[@class=&quot;side-nav-container&quot;]/ul[1]/li[2]/div[@class=&quot;rowAlign&quot;]/div[@class=&quot;col-md-6 menuDesc&quot;]/a[1]/img[@class=&quot;AlignLogo&quot;]</value>
+      <webElementGuid>82fd0345-4509-4486-95c2-b0a1ba8dea7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/img</value>
+      <webElementGuid>d58efb46-a5cd-4402-97fe-48805c5cad61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = './../../assets/clients.svg']</value>
+      <webElementGuid>3ebbdd9c-d26b-4f6d-8130-197592b1ea7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

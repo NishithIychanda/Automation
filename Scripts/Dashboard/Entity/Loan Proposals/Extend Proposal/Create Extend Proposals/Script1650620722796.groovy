@@ -19,6 +19,10 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Dashboard/Common Cases/Dashboard Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Dashboard/Entity/Common/Search Bar'), 'Lender portal Testing')
+
+WebUI.delay(4)
+
 WebUI.click(findTestObject('Dashboard/Entity/Common/div_Entity'))
 
 WebUI.click(findTestObject('Dashboard/Entity/Common/Tab-LoanProposal'), FailureHandling.STOP_ON_FAILURE)

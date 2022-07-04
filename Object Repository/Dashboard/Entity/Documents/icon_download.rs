@@ -6,12 +6,12 @@
    <elementGuidId>02659429-602e-4c38-a17b-41b765fec230</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.upload-btn.uploaded.onlyDownload > div.btn > span.ng-star-inserted > i.material-icons-outlined</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-tab-content-0-2&quot;]/div/div/anchors-section-renderer/div/anchors-content-decider[1]/anchors-documents/section/div[3]/anchors-document[12]/div/anchors-document-input/div/div[1]/div[3]/span[1]/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-2']/div/div/anchors-section-renderer/div/anchors-content-decider/anchors-documents/section/div[3]/anchors-document[12]/div/anchors-document-input/div/div/div[3]/span/i</value>
+         <key>CSS</key>
+         <value>div.upload-btn.uploaded.onlyDownload > div.btn > span.ng-star-inserted > i.material-icons-outlined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
